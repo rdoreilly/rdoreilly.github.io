@@ -1,0 +1,1 @@
+This is the personal/professional profile of Ruairí O'Reilly - any queries direct them to ruairi.oreilly@mtu.ie
