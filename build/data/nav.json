@@ -1,0 +1,18 @@
+{
+    "links": [
+        {
+            "href": "./teaching.html",
+            "displayName": "Teaching"
+        },
+
+        {
+            "href": "./research.html",
+            "displayName": "Research"
+        },
+
+        {
+            "href": "./pub.html",
+            "displayName": "Publications"
+        }
+    ]
+}
