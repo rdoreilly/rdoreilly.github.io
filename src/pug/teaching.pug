@@ -1,0 +1,27 @@
+doctype html
+html(lang="en")
+    include components/head.pug
+    body
+        include components/nav.pug
+        div(class="container" style="margin-top:30px")
+            div(class="row")
+                div(class="col-sm-4")
+                    include components/left_side_bar.pug
+                div(class="col-sm-4")
+                    h3 Semester 1
+                    h4 Knowledge Representation
+                    p  Knowledge representation and reasoning (KR) is a field of AI that focuses on the representation of domain specific knowledge in a form that can be utilised by computer systems. Knowledge representations within a domain are often conceived as formalisms, a description of something in formal mathematical or logical terms. This module will introduce students to methodologies for the visualisation and interpretation of domain specific knowledge and the translation of interpretations into KR formalisms. It will provide the student with an appreciation of how to evaluate the suitability of knowledge representation schemes, balance competing features/requirements and make informed decisions when designing KR formalisms. The module will also focus on the application of KR to appropriate real world problems such as the semantic web, time-series indexing and temporal abstraction of expert knowledge.
+
+                    p Recommended Reading:
+                    ul
+                        li Artificial Intelligence: A Modern Approach (Third edition) by Stuart Russell and Peter Norvig
+                div(class="col-sm-4")
+                    h3 Semester 2
+                    h4 Interactive Data Visualisation
+                    p Web based data visualisation technology is a critical component of modern web applications. In this module the student will learn how to identify and apply a suitable visualisation technique for a data source. It will enable students to create visualisations of data for the web as well as the ability to incorporate interactive functionality to enhance data analysis.
+                    p Recommended Reading:
+                    ul
+                        li D3.js in Action, (Second edition) by Elijah Meeks
+                        li Eloquent Javascript, (Third edition) by Marijn Haverbeke (free pdf available)
+
+        include components/footer.pug
