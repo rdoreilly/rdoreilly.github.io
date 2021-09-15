@@ -23,7 +23,7 @@ function pug_data(cb){
                 return data;
             }
         }))
-        .pipe(gulp.dest('../temp'));
+        .pipe(gulp.dest('./temp'));
 		cb();
 }
 
@@ -40,14 +40,14 @@ function build(cb){
 		'./src/pug/teaching.pug'
 		])
 		.pipe(data(function() {
-				theData = JSON.parse(fs.readFileSync('../temp/data.json'))
+				theData = JSON.parse(fs.readFileSync('./temp/data.json'))
 				return theData
 			}))
 		.pipe(pug({
             pretty: true,
 			basedir: './'
         }))
-		.pipe(gulp.dest('../'));
+		.pipe(gulp.dest('./src/dist/'));
 };
 
 exports.build = series(pug_data, build);

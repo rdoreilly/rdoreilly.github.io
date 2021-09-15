@@ -2,7 +2,7 @@
   "name": "rdoreilly.github.io",
   "version": "1.0.0",
   "description": "This is the personal/professional profile of Ruairí O'Reilly - any queries direct them to ruairi.oreilly@mtu.ie",
-  "main": "gulpfile.js",
+  "main": "index.html",
   "directories": {
     "lib": "lib"
   },
@@ -18,7 +18,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d src/dist"
   },
   "repository": {
     "type": "git",

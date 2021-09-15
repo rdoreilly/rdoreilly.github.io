@@ -450,7 +450,7 @@
 			"charset": "utf8",
 			"description": "To BE COMPLETED.",
 			"keywords": "To BE COMPLETED.",
-			"favicon": "./build/assets/img/favicon.ico"
+			"favicon": "./img/favicon.ico"
 		}
 	},
 	"TRANSLATION": {
