@@ -45,9 +45,9 @@ function build(cb){
 			}))
 		.pipe(pug({
             pretty: true,
-			basedir: '../'
+			basedir: './'
         }))
-		.pipe(gulp.dest('../../'));
+		.pipe(gulp.dest('../'));
 };
 
 exports.build = series(pug_data, build);
