@@ -26,12 +26,21 @@ html(lang="en")
 									td !{paper.title}
 									td !{paper.venue}
 									td !{paper.year}
-									td
-										a(href="!{paper.pdf}") link
-									td
-										a(href="!{paper.research_gate}") link
-									td
-										a(href="!{paper.google_scholar}") link
+									if paper.pdf
+										td
+											a(href=paper.pdf) link
+									else
+										td NA
+									if paper.research_gate
+										td
+											a(href=paper.research_gate) link
+									else
+										td NA
+									if paper.google_scholar
+										td
+											a(href=paper.google_scholar) link
+									else
+										td NA
 
 		include components/footer.pug
 				
