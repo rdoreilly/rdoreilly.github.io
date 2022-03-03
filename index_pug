@@ -1,0 +1,10 @@
+html  
+    head
+        Ruairi O'Reilly Profile Page
+    body
+        header
+            p My soon to be menu
+        section
+            p This is a post about Pug template engine, enjoy it!
+        footer
+            cool footer with lots of copyrights
