@@ -8,3 +8,49 @@ mixin student_card(name, img, bio, href)
 
                 d(class="card-body")
                     a(href=href class="card-link") Card link
+
+mixin publication_table(pub_type)
+    table(class="table table-striped table-sm")
+        thead
+            tr
+                th Year
+                th Authors
+                th Title
+                th Venue
+                th PDF
+                th RG
+                th .bib
+        tbody
+            each paper in PUBLICATIONS.pub
+                if paper.type === pub_type
+                    tr
+                        td !{paper.year}
+                        td !{paper.authors}
+                        td !{paper.title}
+                        td !{paper.venue}
+                        if paper.pdf
+                            td
+                                a(href=paper.pdf) link
+                        else
+                            td NA
+                        if paper.research_gate
+                            td
+                                a(href=paper.research_gate) link
+                        else
+                            td NA
+                        if paper.google_scholar
+                            td
+                                a(href=paper.google_scholar) link
+                        else
+                            td NA
+
+mixin research_topic(topic, sub_topic_1, sub_topic_2, sub_topic_3, research_href)
+    div(class="card")
+        div(class="card-body")
+            h5(class="card-title")=topic
+            ul(class="card-text")
+                li=sub_topic_1
+                li=sub_topic_2
+                li=sub_topic_3
+            a(href=research_href class="card-link") Learn more
+

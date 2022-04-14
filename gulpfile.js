@@ -39,6 +39,10 @@ function build(cb){
 		'./src/pug/pub.pug',
 		'./src/pug/research.pug',
 		'./src/pug/teaching.pug',
+		'./src/pug/ac.pug',
+		'./src/pug/ai.pug',
+		'./src/pug/ehealth.pug',
+		'./src/pug/softeng.pug',
 		'./src/pug/about.pug'
 		])
 		.pipe(data(function() {
