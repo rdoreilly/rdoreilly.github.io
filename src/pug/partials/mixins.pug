@@ -1,0 +1,10 @@
+mixin student_card(name, img, bio, href)
+    div(class="col-sm-3")
+        d(class="card")
+            img(src=img, height="200", class="card-img-top", alt="Profile image of PhD Student")
+            d(class="card-body")
+                h5(class="card-title")=name
+                p(class="card-text")=bio
+
+                d(class="card-body")
+                    a(href=href class="card-link") Card link

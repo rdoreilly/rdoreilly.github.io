@@ -12,6 +12,10 @@
 			{
 				"href": "./pub.html",
 				"displayName": "Publications"
+			},
+			{
+				"href": "./about.html",
+				"displayName": "About"
 			}
 		]
 	},

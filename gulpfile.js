@@ -29,15 +29,17 @@ function pug_data(cb){
 
 function build(cb){
 	return gulp.src([
+		'./src/pug/partials/mixins.pug',
 		'./src/pug/components/nav.pug',
 		'./src/pug/components/head.pug',
 		'./src/pug/components/left_side_bar.pug',
 		'./src/pug/components/footer.pug',
-		'./src/pug/components/research_students.pug',
+		'./src/pug/components/left_sidebar_research.pug',
 		'./src/pug/index.pug',
 		'./src/pug/pub.pug',
 		'./src/pug/research.pug',
-		'./src/pug/teaching.pug'
+		'./src/pug/teaching.pug',
+		'./src/pug/about.pug'
 		])
 		.pipe(data(function() {
 				theData = JSON.parse(fs.readFileSync('./temp/data.json'))
