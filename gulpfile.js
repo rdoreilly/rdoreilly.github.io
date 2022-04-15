@@ -43,6 +43,7 @@ function build(cb){
 		'./src/pug/ai.pug',
 		'./src/pug/ehealth.pug',
 		'./src/pug/softeng.pug',
+		'./src/pug/resources.pug',
 		'./src/pug/about.pug'
 		])
 		.pipe(data(function() {
