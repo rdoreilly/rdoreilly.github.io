@@ -3,14 +3,15 @@ mixin icon_link(href, uri, alt_tag )
         img(src=uri alt=alt_tag style={height: '36px', margin: '1em .5em 1em .5em'})
 
 mixin student_card(name, img, bio, href)
-    div(class="col-sm-3")
-        d(class="card")
-            img(src=img, height="200", class="card-img-top", alt="Profile image of PhD Student")
-            d(class="card-body")
+    div(class="col-8 col-lg-4 col-xl-3")
+        div(class="card")
+            div(width="223", height="200" overflow="hidden")
+                img(src=img, height="200", class="card-img-top, profilePic", alt="Profile image of PhD Student")
+            div(class="card-body")
                 h5(class="card-title")=name
                 p(class="card-text")=bio
 
-                d(class="card-body")
+                div(class="card-body")
                     a(href=href class="card-link") Learn more
 
 mixin publication_table(pub_type)
