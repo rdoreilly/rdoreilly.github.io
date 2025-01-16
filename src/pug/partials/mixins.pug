@@ -65,3 +65,39 @@ mixin research_topic(topic, sub_topic_1, sub_topic_2, sub_topic_3, research_href
                 li=sub_topic_3
             a(href=research_href class="card-link") Learn more
 
+
+
+mixin news_article()
+    .container.py-4
+      h1.mb-4.text-center Latest News
+      
+      .row.g-4
+        each article in articles
+          .col-md-6.col-lg-4
+            .card.h-100.shadow-sm
+              img.card-img-top(src=article.imageUrl alt=article.title)
+              .card-body
+                .d-flex.justify-content-between.align-items-center.mb-2
+                  span.badge.bg-primary= article.category
+                  small.text-muted= article.date
+                h5.card-title= article.title
+                p.card-text= article.summary
+                .d-flex.justify-content-between.align-items-center
+                  small.text-muted By #{article.author}
+                  button.btn.btn-outline-primary.btn-sm(type="button" data-bs-toggle="modal" data-bs-target=`#modal-${article.id}`) Read More
+                  
+      // Modals for full articles
+      each article in articles
+        .modal.fade(id=`modal-${article.id}` tabindex="-1")
+          .modal-dialog.modal-dialog-centered
+            .modal-content
+              .modal-header
+                h5.modal-title= article.title
+                button.btn-close(type="button" data-bs-dismiss="modal")
+              .modal-body
+                img.img-fluid.mb-3(src=article.imageUrl alt=article.title)
+                p= article.content
+                .text-muted.mt-3
+                  small By #{article.author} on #{article.date}
+              .modal-footer
+                button.btn.btn-secondary(type="button" data-bs-dismiss="modal") Close

@@ -18,6 +18,11 @@
         {
             "href": "./about.html",
             "displayName": "About"
+        },
+
+        {
+            "href": "./talks.html",
+            "displayName": "Talks"
         }
     ]
 }
