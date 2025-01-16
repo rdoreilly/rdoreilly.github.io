@@ -1,0 +1,34 @@
+{
+  "name": "rdoreilly.github.io",
+  "version": "1.0.0",
+  "description": "This is the personal/professional profile of Ruairí O'Reilly - any queries direct them to ruairi.oreilly@mtu.ie",
+  "main": "index.html",
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {
+    "browser-sync": "^2.27.5",
+    "gh-pages": "^3.2.3",
+    "gulp": "^4.0.2",
+    "gulp-data": "^1.3.1",
+    "gulp-merge-json": "^2.1.1",
+    "gulp-pug": "^5.0.0",
+    "gulp-url-builder": "^1.0.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "deploy": "gh-pages -d src/dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rdoreilly/rdoreilly.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rdoreilly/rdoreilly.github.io/issues"
+  },
+  "homepage": "https://github.com/rdoreilly/rdoreilly.github.io/index.html"
+}
