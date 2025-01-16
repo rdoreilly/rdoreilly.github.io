@@ -1,5 +1,4 @@
-,
-		{
+[		{
             "authors": "",
             "title": "",
 			"venue": "",
@@ -25,4 +24,6 @@
 			"pdf": "",
 			"research_gate": "",
 			"google_scholar": ""
-        },
+        }
+
+	]

@@ -45,6 +45,10 @@ function html(){
 	.pipe(gulp.dest('./src/dist/'));
 }
 
+exports.default = defaultTask; // Optional, for the default task
+exports.pug_data = pug_data;   // Export the pug_data task
+exports.html = html;           // Export the html task
 exports.watch = function(){
 	watch("./src/pug/**/*.pug", html)
 }
+
