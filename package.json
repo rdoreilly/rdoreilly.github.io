@@ -16,7 +16,9 @@
     "gulp-url-builder": "^1.0.1",
     "pug": "^3.0.2"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "gulp-livereload": "^4.0.2"
+  },
   "scripts": {
     "deploy": "gh-pages -d src/dist"
   },

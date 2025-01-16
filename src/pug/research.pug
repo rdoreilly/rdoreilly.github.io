@@ -1,12 +1,55 @@
+include partials/mixins.pug
 doctype html
 html(lang="en")
     include components/head.pug
     body
         include components/nav.pug
         div(class="container" style="margin-top:30px")
-            div(class="row")
-                div(class="col-sm-4")
-                    include components/research_students.pug
-                div(class="col-sm-8")
+            div(class="row my-5 align-items-center justify-content-center")
+                div(class="col-8 col-lg-4 col-xl-3")
+                    +research_topic('Artificial Intelligence','Machine Learning','Generative Adversarial Networks','Explainable Artificial Intelligence (XAI)','./ai.html')
+                div(class="col-8 col-lg-4 col-xl-3")
+                    +research_topic('Software Engineering', 'Distributed Systems (Web and Cloud-based Architectures)', 'Data Analytics (Real-time analytics, Big Data, Stream Computing)', 'Data Visualisation', './softeng.html')
+                div(class="col-8 col-lg-4 col-xl-3")
+                    +research_topic('E-health','Physiological data','Biomedical image analysis', 'Knowledge Discovery','./ehealth.html')
+                div(class="col-8 col-lg-4 col-xl-3")
+                    +research_topic('Affective Computing','Affective sensing and simulation','Multi-modal systems for human affect','Applied psychology (Personality, Emotion, Goal-setting)','./ac.html')
+
+            div(class="row my-5 align-items-center justify-content-center")
+                h4(class="text-center") Phd Students
+                +student_card('Ryan Donovan', './img/ryan_profile.jpg', 'Modelling the Relationship Between Personality Traits and Basic Emotions: A Multi-Modal and Affective Computing Approach.',  './ryan')
+                +student_card('Urja Pawar','./img/urja_profile.jpg', 'A Framework for Model-Agnostic Explainable Artificial Intelligence.', './urja')
+                +student_card('Muhammad Saad','./img/muhammad_profile.jpg', 'Advancing Deep Architectures for Biomedical Image Analysis.', './saad')
+                +student_card('Zac Dair', './img/zac_profile.jpg', 'A Complex Adaptive System for the Analysis of Psychobiological data and Personalised Healthcare.', './zac')
+
+            div(class="row my-5 align-items-center justify-content-center")
+                h4(class="text-center") MSc Students
+                div(class="col-8 col-lg-4 col-xl-3")
+                    table(class="table table-striped")
+                        thead
+                            tr
+                                th(scope="col") Year
+                                th(scope="col") Name
+                                th(scope="col") Title
+                                th(scope="col") MSc
+                        tbody
+                            tr
+                                th(scope="row") 2022
+                                td John Doe
+                                td Something Amazing
+                                td MSc AI
+                            tr
+                                th(scope="row") 2
+                                td Jacob
+                                td Thornton
+                                td @fat
+                            tr
+                                th(scope="row") 3
+                                td Larry
+                                td the Bird
+                                td @twitter
+
+                    h4(class="text-center") BSc Students
+
 
         include components/footer.pug
