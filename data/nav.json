@@ -23,6 +23,11 @@
         {
             "href": "./talks.html",
             "displayName": "Talks"
+        },
+
+        {
+            "href": "./tools.html",
+            "displayName": "Tools"
         }
     ]
 }

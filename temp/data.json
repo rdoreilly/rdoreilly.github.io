@@ -16,6 +16,48 @@
 			{
 				"href": "./about.html",
 				"displayName": "About"
+			},
+			{
+				"href": "./talks.html",
+				"displayName": "Talks"
+			},
+			{
+				"href": "./tools.html",
+				"displayName": "Tools"
+			}
+		]
+	},
+	"NEWS": {
+		"articles": [
+			{
+				"id": 1,
+				"title": "Latest Technology Breakthrough",
+				"date": "2024-01-15",
+				"author": "John Smith",
+				"summary": "A groundbreaking discovery in quantum computing.",
+				"content": "Scientists have made significant progress in quantum computing, achieving new milestones in qubit stability.",
+				"category": "Technology",
+				"imageUrl": "https://placehold.co/600x400"
+			},
+			{
+				"id": 2,
+				"title": "Environmental Initiative Launches",
+				"date": "2024-01-14",
+				"author": "Sarah Johnson",
+				"summary": "New global initiative to combat climate change.",
+				"content": "World leaders announce collaborative effort to reduce carbon emissions and promote sustainable practices.",
+				"category": "Environment",
+				"imageUrl": "https://placehold.co/600x400"
+			},
+			{
+				"id": 3,
+				"title": "Sports Championship Results",
+				"date": "2024-01-13",
+				"author": "Mike Wilson",
+				"summary": "Exciting finale in international sports tournament.",
+				"content": "In a thrilling match, the underdog team emerged victorious after an intense competition.",
+				"category": "Sports",
+				"imageUrl": "https://placehold.co/600x400"
 			}
 		]
 	},
