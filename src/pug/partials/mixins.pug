@@ -6,7 +6,7 @@ mixin student_card(name, img, bio, href)
     div(class="col-8 col-lg-4 col-xl-3")
         div(class="card")
             div(width="223", height="200" overflow="hidden")
-                img(src=img, height="200", class="card-img-top, profilePic", alt="Profile image of PhD Student")
+                img.card-img-top.profilePic(src=img, height="200", alt="Profile image of PhD Student")
             div(class="card-body")
                 h5(class="card-title")=name
                 p(class="card-text")=bio

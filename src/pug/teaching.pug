@@ -1,52 +1,50 @@
-doctype html
-html(lang="en")
-    include components/head.pug
-    body
-        include components/nav.pug
-        div(class="container" style="margin-top:30px")
-            div(class="row")
-                div(class="col-sm-4")
-                    include components/left_side_bar.pug
-                div(class="col-sm-8")
+include components/head.pug
+body
+    include components/nav.pug
+    div(class="container" style="margin-top:30px")
+        div(class="row")
+            div(class="col-sm-4")
+                include components/left_side_bar.pug
+            div(class="col-sm-8")
 
-                    ul
-                        li
-                            a(href="#knowledgeRepresentation") Knowledge Representation (Sep -> Dec)
-                        li
-                            a(href="#interactiveDataVisualisation") Interactive Data Visualisation (Jan -> May)
+                ul
+                    li
+                        a(href="#knowledgeRepresentation") Knowledge Representation (Sep -> Dec)
+                    li
+                        a(href="#interactiveDataVisualisation") Interactive Data Visualisation (Jan -> May)
 
-                    br
-                    h4(id="knowledgeRepresentation") Knowledge Representation (Semester 1)
-                    p  Knowledge representation and reasoning (KR) is a field of AI that focuses on the representation of domain specific knowledge in a form that can be utilised by computer systems. Knowledge representations within a domain are often conceived as formalisms, a description of something in formal mathematical or logical terms. This module will introduce students to methodologies for the visualisation and interpretation of domain specific knowledge and the translation of interpretations into KR formalisms. It will provide the student with an appreciation of how to evaluate the suitability of knowledge representation schemes, balance competing features/requirements and make informed decisions when designing KR formalisms. The module will also focus on the application of KR to appropriate real world problems such as the semantic web, time-series indexing and temporal abstraction of expert knowledge.
+                br
+                h4(id="knowledgeRepresentation") Knowledge Representation (Semester 1)
+                p  Knowledge representation and reasoning (KR) is a field of AI that focuses on the representation of domain specific knowledge in a form that can be utilised by computer systems. Knowledge representations within a domain are often conceived as formalisms, a description of something in formal mathematical or logical terms. This module will introduce students to methodologies for the visualisation and interpretation of domain specific knowledge and the translation of interpretations into KR formalisms. It will provide the student with an appreciation of how to evaluate the suitability of knowledge representation schemes, balance competing features/requirements and make informed decisions when designing KR formalisms. The module will also focus on the application of KR to appropriate real world problems such as the semantic web, time-series indexing and temporal abstraction of expert knowledge.
 
-                    p Recommended Reading:
+                p Recommended Reading:
+                div(class="row")
+                    div(class="col-4")
+                        p "Artificial Intelligence: A Modern Approach (Third edition)" by Stuart Russell and Peter Norvig
+                    div(class="col-4")
+                        img(src="./img/AI_a_mod_approach.jpg", height="200")
+                br
+                div(class="row")
+                    div(class="col-4")
+                        p "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (2nd Edition)" by Aurélien Géron
+                    div(class="col-4")
+                        img(src="./img/handsOnML.jpg", height="200")
+                br
+
+                h4(id="interactiveDataVisualisation") Interactive Data Visualisation (Semester 2)
+                p Web based data visualisation technology is a critical component of modern web applications. In this module the student will learn how to identify and apply a suitable visualisation technique for a data source. It will enable students to create visualisations of data for the web as well as the ability to incorporate interactive functionality to enhance data analysis.
+                p Recommended Reading:
                     div(class="row")
                         div(class="col-4")
-                            p "Artificial Intelligence: A Modern Approach (Third edition)" by Stuart Russell and Peter Norvig
+                            p "D3.js in Action (Second edition)" by Elijah Meeks
                         div(class="col-4")
-                            img(src="./img/AI_a_mod_approach.jpg", height="200")
+                            img(src="./img/d3jsInAction.jpg", height="200")
                     br
                     div(class="row")
                         div(class="col-4")
-                            p "Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems (2nd Edition)" by Aurélien Géron
+                            p "Eloquent Javascript (Third edition)" by Marijn Haverbeke (free pdf available)
                         div(class="col-4")
-                            img(src="./img/handsOnML.jpg", height="200")
+                            img(src="./img/eloquentJS.jpg", height="200")
                     br
 
-                    h4(id="interactiveDataVisualisation") Interactive Data Visualisation (Semester 2)
-                    p Web based data visualisation technology is a critical component of modern web applications. In this module the student will learn how to identify and apply a suitable visualisation technique for a data source. It will enable students to create visualisations of data for the web as well as the ability to incorporate interactive functionality to enhance data analysis.
-                    p Recommended Reading:
-                        div(class="row")
-                            div(class="col-4")
-                                p "D3.js in Action (Second edition)" by Elijah Meeks
-                            div(class="col-4")
-                                img(src="./img/d3jsInAction.jpg", height="200")
-                        br
-                        div(class="row")
-                            div(class="col-4")
-                                p "Eloquent Javascript (Third edition)" by Marijn Haverbeke (free pdf available)
-                            div(class="col-4")
-                                img(src="./img/eloquentJS.jpg", height="200")
-                        br
-
-        include components/footer.pug
+    include components/footer.pug
