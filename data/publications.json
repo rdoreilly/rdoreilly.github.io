@@ -1,6 +1,66 @@
 {
   "pub": [
     {
+    "authors": "Dair, Zachary and Saad, Muhammad and Pawar, Urja and O'Reilly, Ruairi and Dockray, Samantha",
+    "title": "Classification of Stress via Ambulatory ECG and GSR Data",
+    "venue": "Human Activity and Behavior Analysis",
+    "year": "2024",
+    "pdf": "https://arxiv.org/pdf/2208.04705",
+    "type":"chapter",
+    "research_gate": "",
+    "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=86x5oQgAAAAJ&sortby=pubdate&citation_for_view=86x5oQgAAAAJ:k_IJM867U9cC",
+    "bib": "@incollection{dair2024classification, title={Classification of Stress via Ambulatory ECG and GSR Data}, author={Dair, Zachary and Saad, Muhammad and Pawar, Urja and O'Reilly, Ruairi and Dockray, Samantha}, booktitle={Human Activity and Behavior Analysis}, pages={183--196}, year={2024}, publisher={CRC Press}}",
+    "abstract": "In healthcare, detecting stress and enabling individuals to monitor their mental health and well-being is challenging. Advancements in wearable technology now enable continuous physiological data collection. This data can provide insights into mental health and behavioural states through psychophysiological analysis. However, automated analysis is required to provide timely results due to the quantity of data collected. Machine learning has shown efficacy in providing an automated classification of physiological data for health applications in controlled laboratory environments. Ambulatory uncontrolled environments, however, provide additional challenges requiring further modelling to overcome. This work empirically assesses several approaches utilising machine learning classifiers to detect stress using physiological data recorded in an ambulatory setting with self-reported stress annotations. A subset of the training portion of the SMILE dataset enables the evaluation of approaches before submission. The optimal stress detection approach achieves 90.77% classification accuracy, 91.24 F1-Score, 90.42 Sensitivity and 91.08 Specificity, utilising an ExtraTrees classifier and feature imputation methods. Meanwhile, accuracy on the challenge data is much lower at 59.23% (submission #54 from BEaTS-MTU, username ZacDair). The cause of the performance disparity is explored in this work."
+  },
+  {
+    "authors": "Donovan, Ryan; Johnson, Aoife; deRoiste, Aine; O’Reilly, Ruairi",
+    "title": "Evaluating the Validity of Automated Emotion Detection from Spontaneous Expressions across Modalities: Insights from the PEM Dataset",
+    "venue": "OSF",
+    "year": "2024",
+    "type": "journal",
+    "pdf": "",
+    "research_gate": "",
+    "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=86x5oQgAAAAJ&sortby=pubdate&citation_for_view=86x5oQgAAAAJ:u_35RYKgDlwC",
+    "bib": "@article{donovan2024evaluating, title={Evaluating the Validity of Automated Emotion Detection from Spontaneous Expressions across Modalities: Insights from the PEM Dataset}, author={Donovan, Ryan and Johnson, Aoife and deRoiste, Aine and O’Reilly, Ruairi}, year={2024}, publisher={OSF}}",
+    "abstract": "Affective computing research aims to accurately detect users’ emotional states to enhance human-computer interaction. While existing studies demonstrate the ability of affective computing models to accurately detect posed expressions of emotions, there is limited investigation into their validity in detecting natural or spontaneous emotional expressions. This study examines the validity of several models in accurately detecting six basic emotional states from spontaneous expressions. Data were collected from 114 participants who viewed emotionally provocative video clips, while multi-modal information on their emotional experiences was captured (questionnaires, video recordings, audio recordings, and text). Open-source software was used to detect basic emotional states from facial expressions (Py-Feat), text (National Research Lexicon), and audio (an LTSM-DNN model). The construct validity of these measurements was assessed by correlating their relationship to self-reported emotional experiences (positive convergent validity) and Big Five personality traits (both discriminant and negative convergent validity). Data analyses demonstrated limited construct validity for automatic detection of emotion through facial expression and text, and poor construct validity through audio. These results suggest that existing models are not yet capable of accurately measuring basic emotional states in real-life settings, highlighting the critical need for improving affective computing models using spontaneous emotional data to enhance their accuracy. The Personality-Emotion Mapping (PEM) dataset is provided as a resource for training and testing these"
+  },
+  {
+    "authors": "Donovan, Ryan; Johnson, Aoife; De Roiste, Aine; O'Reilly, Ruairi",
+    "title": "Investigating the Relationships Between Basic Emotions and the Big Five Personality Traits and Their Sub-Traits",
+    "venue": "Journal of Personality",
+    "year": "2025",
+    "type": "journal",
+    "pdf": "",
+    "research_gate": "",
+    "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=86x5oQgAAAAJ&sortby=pubdate&citation_for_view=86x5oQgAAAAJ:4OULZ7Gr8RgC",
+    "bib": "@article{donovan2025investigating, title={Investigating the Relationships Between Basic Emotions and the Big Five Personality Traits and Their Sub-Traits}, author={Donovan, Ryan and Johnson, Aoife and De Roiste, Aine and O'Reilly, Ruairi}, journal={Journal of Personality}, year={2025}}",
+    "abstract": "Most research investigating relationships between the Big Five and emotional states has focused on how emotional attributes relate to Extraversion and Neuroticism. However, the potential for discrete emotional states to enable a richer understanding of the emotive nature of all Big Five traits and their subtraits has been neglected. Methods Participants (N = 203) completed the Big Five Aspects Scale, watched six emotionally stimulating video clips, and self‐reported their experience of basic emotions before (Baseline) and after (Reaction) each video. Spearman correlations identified state–trait relationships, followed by regression analyses to assess the unique contribution of each trait to emotional experiences. Results Conscientiousness negatively correlated with Baseline Sadness, while Agreeableness positively correlated with Reaction Disgust, Fear, and Sadness."  
+  },
+  {
+    "authors": "Khazaee, Ali; Mohammadi, Abdolreza; O’Reilly, Ruairi",
+    "title": "Multi-scale graph theoretical analysis of resting-state fMRI for classification of Alzheimer’s disease, mild cognitive impairment, and healthy controls",
+    "venue": "Signal, Image and Video Processing (Springer Nature)",
+    "year": "2025",
+    "type": "journal",
+    "pdf": "",
+    "research_gate": "",
+    "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=86x5oQgAAAAJ&sortby=pubdate&citation_for_view=86x5oQgAAAAJ:a0OBvERweLwC",
+    "bib": "@article{khazaee2025multi, title={Multi-scale graph theoretical analysis of resting-state fMRI for classification of Alzheimer’s disease, mild cognitive impairment, and healthy controls}, author={Khazaee, Ali and Mohammadi, Abdolreza and O’Reilly, Ruairi}, journal={Signal, Image and Video Processing}, volume={19}, number={14}, pages={1192}, year={2025}, publisher={Springer London London}}",
+    "abstract": "Alzheimer’s disease (AD) is a neurodegenerative disorder marked by memory loss and cognitive decline, making early detection vital for timely intervention. However, early diagnosis is challenging due to the heterogeneous presentation of symptoms. Resting-state functional magnetic resonance imaging (rs-fMRI) captures spontaneous brain activity and functional connectivity, which are known to be disrupted in AD and mild cognitive impairment (MCI). Traditional methods, such as Pearson’s correlation, have been used to calculate association matrices, but these approaches often overlook the dynamic and non-stationary nature of brain activity. In this study, we introduce a novel method that integrates discrete wavelet transform (DWT) and graph theory to model the dynamic behavior of brain networks. Our approach captures the time-frequency representation of brain activity, allowing for a more nuanced analysis of"
+  },
+  {
+    "authors": "Bahamazava, Katsiaryna; O’Reilly, Ruairi",
+    "title": "FAIR-MED: Bias Detection and Fairness Evaluation in Healthcare Focused XAI",
+    "venue": "World Conference on Explainable Artificial Intelligence",
+    "year": "2025",
+    "type": "conference",
+    "pdf": "",
+    "research_gate": "",
+    "google_scholar": "",
+    "bib": "@inproceedings{bahamazava2025fair, title={FAIR-MED: Bias Detection and Fairness Evaluation in Healthcare Focused XAI}, author={Bahamazava, Katsiaryna and O’Reilly, Ruairi}, booktitle={World Conference on Explainable Artificial Intelligence}, pages={380--401}, year={2025}, organization={Springer Nature Switzerland Cham}}",
+    "abstract": ""
+  },
+    {
       "authors": "Pawar, Urja and O’Reilly, Ruairi and Beder, Christian and O’Shea, Donna",
       "title": "The Dynamics of Explainability: Diverse Insights from SHAP Explanations using Neighbourhoods",
       "venue": "Late-breaking work, Demos and Doctoral Consortium, colocated with The 2nd World Conference on eXplainable Artificial Intelligence",
@@ -166,18 +226,7 @@
       "bib": " @article{dragan2022evaluating, title={Evaluating the Quality and Diversity of DCGAN-based Generatively Synthesized Diabetic Retinopathy Imagery}, author={Dragan, Cristina-Madalina and Saad, Muhammad Muneeb and Rehmani, Mubashir Husain and O'Reilly, Ruairi}, journal={arXiv:2208.05593v3}, year={2022}}",
       "abstract": "Publicly available diabetic retinopathy (DR) datasets are imbalanced, containing limited numbers of images with DR. This imbalance contributes to overfitting when training machine learning classifiers. The impact of this imbalance is exacerbated as the severity of the DR stage increases, affecting the classifiers’ diagnostic capacity. The imbalance can be addressed using Generative Adversarial Networks (GANs) to augment the datasets with synthetic images. Generating synthetic images is advantageous if high-quality and diverse images are produced. To evaluate the quality and diversity of synthetic images, several evaluation metrics, such as Multi-Scale Structural Similarity Index (MS-SSIM), Cosine Distance (CD), and Fréchet Inception Distance (FID), are used. Understanding the effectiveness of each metric in evaluating the quality and diversity of synthetic images is critical to select images for augmentation. To date, there has been limited analysis of the appropriateness of these metrics in the context of biomedical imagery. This work contributes an empirical assessment of these evaluation metrics as applied to synthetic Proliferative DR imagery generated by a Deep Convolutional GAN (DCGAN). Furthermore, the metrics’ capacity to indicate the quality and diversity of synthetic images and their correlation with classifier performance are examined. This enables a quantitative selection of synthetic imagery and an informed augmentation strategy, which are often lacking in the literature. Results indicate that FID is suitable for evaluating the quality, while MS-SSIM and CD are suitable for evaluating the diversity of synthetic imagery. Furthermore, the superior performance of Convolutional Neural Network (CNN) and EfficientNet classifiers, as indicated by the and AUC scores, for the augmented datasets compared to the original dataset demonstrate the efficacy of synthetic imagery to augment the imbalanced dataset while improving the classification scores"
     },
-    {
-      "authors": "Dair, Zachary and Saad, Muhammad and Pawar, Urja and O'Reilly, Ruairi and Dockray, Samantha",
-      "title": "Classification of Stress via Ambulatory ECG and GSR Data",
-      "venue": "Human Activity and Behavior Analysis",
-      "year": "2024",
-      "pdf": "https://arxiv.org/pdf/2208.04705",
-      "type":"chapter",
-      "research_gate": "",
-      "google_scholar": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=86x5oQgAAAAJ&sortby=pubdate&citation_for_view=86x5oQgAAAAJ:k_IJM867U9cC",
-      "bib": "@incollection{dair2024classification, title={Classification of Stress via Ambulatory ECG and GSR Data}, author={Dair, Zachary and Saad, Muhammad and Pawar, Urja and O'Reilly, Ruairi and Dockray, Samantha}, booktitle={Human Activity and Behavior Analysis}, pages={183--196}, year={2024}, publisher={CRC Press}}",
-      "abstract": "In healthcare, detecting stress and enabling individuals to monitor their mental health and well-being is challenging. Advancements in wearable technology now enable continuous physiological data collection. This data can provide insights into mental health and behavioural states through psychophysiological analysis. However, automated analysis is required to provide timely results due to the quantity of data collected. Machine learning has shown efficacy in providing an automated classification of physiological data for health applications in controlled laboratory environments. Ambulatory uncontrolled environments, however, provide additional challenges requiring further modelling to overcome. This work empirically assesses several approaches utilising machine learning classifiers to detect stress using physiological data recorded in an ambulatory setting with self-reported stress annotations. A subset of the training portion of the SMILE dataset enables the evaluation of approaches before submission. The optimal stress detection approach achieves 90.77% classification accuracy, 91.24 F1-Score, 90.42 Sensitivity and 91.08 Specificity, utilising an ExtraTrees classifier and feature imputation methods. Meanwhile, accuracy on the challenge data is much lower at 59.23% (submission #54 from BEaTS-MTU, username ZacDair). The cause of the performance disparity is explored in this work."
-    },
+ 
     {
       "authors": "Walshe, David and O'Reilly, Ruairi",
       "title": "FAIR Skin Lesion Classification Workflows using Transfer Learning",

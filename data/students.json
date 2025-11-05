@@ -1,12 +1,417 @@
 {
   "students": [
     {
-      "name": "Brendan Lyden",
+      "name": "Nathan Ben David Pattison",
+      "qualification": "M.Sc.",
+      "programme": "AI",
+      "title": "Dynamic Video Targeted Temporal Inpainting via Gaussian Splatting",
+      "year": 2025
+    },
+    {
+      "name": "Yash Sandeep Modi",
+      "qualification": "M.Sc.",
+      "programme": "AI",
+      "title": "Co-evolutionary Level Generation and Agent Development: A Hybrid GAN-RL Architecture for Ensuring Playable Game Content",
+      "year": 2025
+    },
+    {
+      "name": "Shane Ward",
+      "qualification": "M.Sc.",
+      "programme": "SAD",
+      "title": "SDCS-X: Enabling Open and Modular Software-Defined Control Systems in Discrete Manufacturing",
+      "year": 2025
+    },
+    {
+      "name": "Amal Zackaria",
+      "qualification": "M.Sc.",
+      "programme": "SAD",
+      "title": "Architectural Models for Master Data Management in Data Mesh",
+      "year": 2025
+    },
+    {
+      "name": "Ahmed Ghanem",
+      "qualification": "M.Sc.",
+      "programme": "SAD",
+      "title": "VolumeScaler Controller",
+      "year": 2025
+    },
+    {
+      "name": "Felipe Tuyama de Faria Barbosa",
+      "qualification": "M.Sc.",
+      "programme": "SAD",
+      "title": "Assessing Playability of Automated Piano Transcriptions with Heuristic Metrics Based on Music Theory",
+      "year": 2025
+    },
+    {
+      "name": "Ryan Donovan",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "Modelling the Relationship Between Personality Traits and Basic Emotions: A Multi-Modal and Affective Computing Approach",
+      "year": 2025
+    },
+    {
+      "name": "Marwen Battikh",
+      "qualification": "M.Sc.",
+      "programme": "SAD",
+      "title": "A Developer Friendly RBAC Enabled Micro Frontend Framework With Dynamic Discovery Support",
+      "year": 2024
+    },
+    {
+      "name": "Mickael Mania",
+      "qualification": "M.Sc.",
+      "programme": "SAD",
+      "title": "Addressing the Exploration-Exploitation Dilemma in Adaptive Software Systems",
+      "year": 2024
+    },
+    {
+      "name": "James Mahoney",
+      "qualification": "M.Sc.",
+      "programme": "SAD",
+      "title": "Enhancing Performance and Scalability in Containerised Environments through Thread Pool Starvation Detection",
+      "year": 2024
+    },
+    {
+      "name": "David Garcia Lopez",
+      "qualification": "M.Sc.",
+      "programme": "SAD",
+      "title": "Performance Analysis of Rust, C++, and C# in High-Load Transactional Systems",
+      "year": 2024
+    },
+    {
+      "name": "Christopher O Grady",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "An Exploration into Algorithmic Traders and Risk in the Stock Market",
+      "year": 2024
+    },
+    {
+      "name": "WeiXuan Leong",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "Towards Open-Source: Refactoring and Migrating Legacy Systems as OS Solutions",
+      "year": 2024
+    },
+    {
+      "name": "Conor Pasley",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "Improving the Communication of Large  Learning Models through Socio-Economic Personas",
+      "year": 2024
+    },
+    {
+      "name": "Urja Pawar",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "Explainable AI in Medical Domain",
+      "year": 2023
+    },
+    {
+      "name": "Madalina Dragan",
+      "qualification": "M.Sc.",
+      "programme": "AI",
+      "title": "Evaluating Generatively Synthesized Diabetic Retinopathy Imagery - 22.12",
+      "year": 2023
+    },
+    {
+      "name": "Wenchao Zhao",
+      "qualification": "M.Sc.",
+      "programme": "AI",
       "title": "",
-      "qual": "Sleep Apnea Classification in an Activity Tracker Environment",
-      "year": "2021",
-      "bio": "",
-      "img": ""
+      "year": 2023
+    },
+    {
+      "name": "Manfred Steyer",
+      "qualification": "M.Sc.",
+      "programme": "SAD",
+      "title": "",
+      "year": 2023
+    },
+    {
+      "name": "William Stack",
+      "qualification": "M.Sc.",
+      "programme": "SAD",
+      "title": "",
+      "year": 2023
+    },
+    {
+      "name": "Matthew Byrne",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "Technology Enabled Care: Fall Prediction in Elder Care Facilities",
+      "year": 2023
+    },
+    {
+      "name": "Jakub Kucharski",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "Mental Health Well-being Companion APP",
+      "year": 2023
+    },
+    {
+      "name": "Jonathon Mahony",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "Tyre Mate - Tread depth estimation on a mobile device",
+      "year": 2023
+    },
+    {
+      "name": "Declan Williamson",
+      "qualification": "M.Sc.",
+      "programme": "SAD",
+      "title": "WebTransport: An initial assessment",
+      "year": 2022
+    },
+    {
+      "name": "Marcelo Flores",
+      "qualification": "M.Sc.",
+      "programme": "SAD",
+      "title": "Improving User Interface Test Automation Efficiency",
+      "year": 2022
+    },
+    {
+      "name": "Gyanendar Manohar",
+      "qualification": "M.Sc.",
+      "programme": "AI",
+      "title": "InceptionCaps: A Performant Glaucoma Classification Model for Data-scarce Environment",
+      "year": 2022
+    },
+    {
+      "name": "Cristian Feteseu",
+      "qualification": "M.Sc.",
+      "programme": "AI",
+      "title": "Clustering and Interpreting Heart Murmur data via Medical XAI",
+      "year": 2022
+    },
+    {
+      "name": "Shane Quinn",
+      "qualification": "M.Sc.",
+      "programme": "AI",
+      "title": "Real-time facial emotion recognition at the edge with model compression",
+      "year": 2022
+    },
+    {
+      "name": "Daniel Gallagher",
+      "qualification": "M.Sc.",
+      "programme": "AI",
+      "title": "Transfer Learning in Skin Lesion Classification",
+      "year": 2022
+    },
+    {
+      "name": "Roshan Sreekanth",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "Comparing Machine Learning Algorithms used in Stock Market Forecasting",
+      "year": 2022
+    },
+    {
+      "name": "Vytautas Vosylius",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "Actionable insights from the visualisation and analysis of traffic data",
+      "year": 2022
+    },
+    {
+      "name": "Aaron Kelleher",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "Housing analysis",
+      "year": 2022
+    },
+    {
+      "name": "Adam Baldwin",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "Quantifying the Interaction between Mood, Academic Performance, and Goal-Setting",
+      "year": 2022
+    },
+    {
+      "name": "Urja Pawar",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "Evaluating Hierarchical Medical Workflows using Feature Importance",
+      "year": 2021
+    },
+    {
+      "name": "Muhammad Muneeb Saad",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "A Survey on Training Challenges in Generative Adversarial Networks for Biomedical Image Analysis",
+      "year": 2021
+    },
+    {
+      "name": "Zachary Dair",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "A Complex Adaptive System for the Analysis of Psychobiological data and Personalised Healthcare",
+      "year": 2021
+    },
+    {
+      "name": "Brendan Lyden",
+      "qualification": "M.Sc.",
+      "programme": "AI",
+      "title": "A Deep Learning Approach to Sleep Apnea Detection",
+      "year": 2021
+    },
+    {
+      "name": "Madalina Dragan",
+      "qualification": "M.Sc.",
+      "programme": "AI",
+      "title": "Diabetic Retinopathy classification using a CNN trained on synthetic retina fundus images",
+      "year": 2021
+    },
+    {
+      "name": "Dave Walshe",
+      "qualification": "M.Sc.",
+      "programme": "MSc SAD",
+      "title": "Melanoma Classification based on Transfer Learning Methods",
+      "year": 2021
+    },
+    {
+      "name": "Zachary Dair",
+      "qualification": "B.Sc.",
+      "programme": "PhD",
+      "title": "Classification of Emotive Expression Using Verbal and Non Verbal Components of Speech",
+      "year": 2021
+    },
+    {
+      "name": "Joshua Desmond",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "Solving the university course timetabling problem using Constraint satisfaction methodology and Answer set programming",
+      "year": 2021
+    },
+    {
+      "name": "Fiach O'Neill",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "A Comparative Analysis of Probabilistic and Game Theoretic Methods in Imperfect Information Games",
+      "year": 2021
+    },
+    {
+      "name": "Iulian Gherman",
+      "qualification": "B.Sc.",
+      "programme": "Web Development",
+      "title": "Predicting the Price of Cars using Machine Learning Models",
+      "year": 2021
+    },
+    {
+      "name": "James Harty",
+      "qualification": "B.Sc.",
+      "programme": "Web Development",
+      "title": "Filtering user profiles on Stack Overflow, based on technical skill, to provide suitable candidates for recruiters",
+      "year": 2021
+    },
+    {
+      "name": "Zachary Dair",
+      "qualification": "B.Sc.",
+      "programme": "Software Development",
+      "title": "A bi-modal approach to emotion detection, using verbal and non-verbal components of speech",
+      "year": 2021
+    },
+    {
+      "name": "Urja Pawar",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "Incorporating Explainable Artificial Intelligence (XAI) to aid the Understanding of Machine Learning in the Healthcare Domain",
+      "year": 2020
+    },
+    {
+      "name": "Urja Pawar",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "Explainable AI in Healthcare",
+      "year": 2020
+    },
+    {
+      "name": "Urja Pawar",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "Enabling Proactive Smart Healthcare via Artificial Intelligence",
+      "year": 2020
+    },
+    {
+      "name": "Muhammad Muneeb Saad",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "Advancing GAN architectures for the Augmentation of Biomedical Image Datasets",
+      "year": 2020
+    },
+    {
+      "name": "Urja Pawar",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "A Framework for Model-Agnostic Explainable Artificial Intelligence",
+      "year": 2019
+    },
+    {
+      "name": "Ryan Donovan",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "Differentiation in Personality-Emotion Mappings",
+      "year": null
+    },
+    {
+      "name": "Ryan Donovan",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "Improving Academic Performance Amongst First Years Computer Science Students Through Goal-Setting",
+      "year": null
+    },
+    {
+      "name": "Ryan Donovan",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "A Workflow for Modeling Personality And Emotions to Enable User Profiling and Personalisation",
+      "year": null
+    },
+    {
+      "name": "Ryan Donovan",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "Introducing PEM - A Workflow for Mapping Personality Traits to The Basic Emotions",
+      "year": null
+    },
+    {
+      "name": "Ryan Donovan",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "Quantifying the Links between Personality Sub-Traits and the Basic Emotions",
+      "year": null
+    },
+    {
+      "name": "Ryan Donovan",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "A Quantitative Model Mapping Personality Traits to Basic Emotions",
+      "year": null
+    },
+    {
+      "name": "Ryan Donovan",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "Linear and Nonlinear Modelling in Personality Emotion Mappings",
+      "year": null
+    },
+    {
+      "name": "Ryan Donovan",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "An Empirical Study Quantifying the Links between the Basic Emotions and Personality Sub-Traits",
+      "year": null
+    },
+    {
+      "name": "Urja Pawar",
+      "qualification": "PhD",
+      "programme": "PhD",
+      "title": "",
+      "year": null
+    },
+    {
+      "name": "Farshad Tooshi",
+      "qualification": "Colleague",
+      "programme": "STAFF",
+      "title": "Code Software Metrics",
+      "year": null
     }
   ]
 }

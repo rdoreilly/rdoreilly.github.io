@@ -22,34 +22,13 @@ html(lang="en")
                 +student_card('Muhammad Saad','./img/muhammad_profile.jpg', 'Advancing Deep Architectures for Biomedical Image Analysis.', './saad')
                 +student_card('Zac Dair', './img/zac_profile.jpg', 'A Complex Adaptive System for the Analysis of Psychobiological data and Personalised Healthcare.', './zac')
 
-            div(class="row my-5 align-items-center justify-content-center")
-                h4(class="text-center") MSc Students
-                div(class="col-8 col-lg-4 col-xl-3")
-                    table(class="table table-striped")
-                        thead
-                            tr
-                                th(scope="col") Year
-                                th(scope="col") Name
-                                th(scope="col") Title
-                                th(scope="col") MSc
-                        tbody
-                            tr
-                                th(scope="row") 2022
-                                td John Doe
-                                td Something Amazing
-                                td MSc AI
-                            tr
-                                th(scope="row") 2
-                                td Jacob
-                                td Thornton
-                                td @fat
-                            tr
-                                th(scope="row") 3
-                                td Larry
-                                td the Bird
-                                td @twitter
+            div.row.my-5.align-items-center.justify-content-center
+                h4.text-center.mb-3 MSc Students
+                .col-12.col-lg-10.col-xl-8
+                    +student_sections('M.Sc.')
 
-                    h4(class="text-center") BSc Students
-
-
+                h4.text-center.mt-5.mb-3 BSc Students
+                .col-12.col-lg-10.col-xl-8
+                    +student_sections('B.Sc.')
+                    
         include components/footer.pug

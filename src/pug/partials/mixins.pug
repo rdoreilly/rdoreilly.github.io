@@ -101,3 +101,56 @@ mixin news_article()
                   small By #{article.author} on #{article.date}
               .modal-footer
                 button.btn.btn-secondary(type="button" data-bs-dismiss="modal") Close
+
+//- Usage examples:
+//- +student_table('M.Sc.')
+//- +student_table('B.Sc.')
+
+//- Expected data shape (JSON):
+//- const STUDENTS = {
+//-   students: [
+//-     {
+//-       name: "John Doe",
+//-       email: "John.doe@mycit.ie",
+//-       qualification: "M.Sc.",
+//-       programme: "MSc AI",
+//-       type: "Dissertation",            // e.g., Dissertation | FYP | Thesis | Conference | etc.
+//-       title: "Dynamic Video Targeted Temporal Inpainting via Gaussian Splatting",
+//-       link: "https://www.overleaf.com/project/..." // optional
+//-     },
+//-     ...
+//-   ]
+//- };
+
+mixin student_table(qual)
+    - const rows = (typeof STUDENTS !== 'undefined' && STUDENTS && STUDENTS.students) ? STUDENTS.students : [];
+
+    if !rows.length
+        p.text-muted No student records available.
+    else
+        table.table.table-striped.table-sm
+            thead
+                tr
+                    th Name
+                    th Qualification
+                    th Programme
+                    th Title
+                    th Year
+        
+            tbody
+                each s in rows
+                    if s && s.qualification === qual
+                        tr
+                            td !{s.name || 'NA'}
+                            td !{s.qualification || 'NA'}
+                            td !{s.programme || 'NA'}
+                            td !{s.title || 'NA'}
+                            td !{s.year || 'NA'}
+                          
+//- Optional helper mixin to render both MSc and BSc sections quickly
+mixin student_sections
+    h3 MSc Students
+    +student_table('M.Sc.')
+
+    h3 BSc Students
+    +student_table('B.Sc.')
