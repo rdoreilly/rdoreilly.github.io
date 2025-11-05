@@ -5,7 +5,7 @@ const merge = require('gulp-merge-json');
 const fs = require('fs');
 const path = require('path');
 
-const { src, dest, watch} = require('gulp');
+const { src, dest, watch, series } = require('gulp');
 
 function defaultTask(cb){
 	console.log("Gulp is working");
@@ -45,10 +45,15 @@ function html(){
 	.pipe(gulp.dest('./src/dist/'));
 }
 
+// Build pipeline: merge data -> render pug -> dist
+const build = series(pug_data, html);
+exports.build = build;
+
 exports.default = defaultTask; // Optional, for the default task
 exports.pug_data = pug_data;   // Export the pug_data task
 exports.html = html;           // Export the html task
-exports.watch = function(){
-	watch("./src/pug/**/*.pug", html)
-}
+exports.watch = function () {
+  watch("./data/**/*.json", build);
+  watch("./src/pug/**/*.pug", build);
+};
 

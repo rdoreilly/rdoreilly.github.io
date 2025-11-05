@@ -20,7 +20,9 @@
     "gulp-livereload": "^4.0.2"
   },
   "scripts": {
-    "deploy": "gh-pages -d src/dist"
+    "build": "gulp pug_data && gulp html",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d src/dist -b gh-pages"
   },
   "repository": {
     "type": "git",
