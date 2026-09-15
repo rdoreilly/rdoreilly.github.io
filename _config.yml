@@ -22,7 +22,7 @@ repository : "rdoreilly/rdoreilly.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpg"
+  avatar           : "profile.png"
   name             : "Ruairí O'Reilly"
   pronouns         : # example: "she/her"  
   bio              : "Lecturer in Computer Science at Munster Technological University. Research in Explainable AI, generative AI evaluation, biomedical AI, fairness and decision support."
