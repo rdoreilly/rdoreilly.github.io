@@ -5,32 +5,589 @@ permalink: /publications/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
-
 {% include base_path %}
 
-<!-- New style rendering if publication categories are defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category  %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
-        {% assign title_shown = true %}
-      {% endunless %}
-      {% include archive-single.html %}
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    {% include archive-single.html %}
-  {% endfor %}
+<style>
+.pub-intro {
+  margin-bottom: 1.5rem;
+}
+
+.pub-nav {
+  margin: 1rem 0 2rem 0;
+  padding-bottom: 0.8rem;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.25);
+  font-size: 0.9em;
+}
+
+.pub-nav a {
+  margin-right: 1rem;
+  white-space: nowrap;
+}
+
+.pub-section {
+  margin-top: 2.2rem;
+}
+
+.pub-entry {
+  padding: 0.65rem 0 0.7rem 0;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.22);
+}
+
+.pub-entry:last-child {
+  border-bottom: 0;
+}
+
+.pub-title {
+  font-weight: 600;
+  line-height: 1.35;
+  margin-bottom: 0.15rem;
+}
+
+.pub-title a {
+  text-decoration: none;
+}
+
+.pub-authors {
+  font-size: 0.9em;
+  line-height: 1.4;
+}
+
+.pub-venue {
+  font-size: 0.9em;
+  line-height: 1.4;
+  opacity: 0.85;
+}
+
+.pub-links {
+  margin-top: 0.2rem;
+  font-size: 0.84em;
+}
+
+.pub-links a {
+  margin-right: 0.8rem;
+}
+
+.pub-details {
+  margin-top: 0.25rem;
+  font-size: 0.88em;
+}
+
+.pub-details summary {
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 500;
+}
+
+.pub-details-content {
+  margin-top: 0.55rem;
+  padding-left: 0.9rem;
+  border-left: 2px solid rgba(127, 127, 127, 0.35);
+}
+
+.pub-details-content h2,
+.pub-details-content h3 {
+  font-size: 1em;
+  margin-top: 0.5rem;
+}
+
+.pub-details-content p {
+  margin: 0.35rem 0 0.6rem 0;
+}
+
+.pub-bibtex {
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+  font-size: 0.85em;
+}
+
+.selected-publications {
+  margin-bottom: 2.2rem;
+}
+
+.selected-entry {
+  margin: 0 0 0.85rem 0;
+}
+
+.selected-entry .pub-title {
+  margin-bottom: 0.1rem;
+}
+
+.pub-count {
+  font-size: 0.85em;
+  font-weight: normal;
+  opacity: 0.7;
+}
+</style>
+
+
+<div class="pub-intro">
+
+<p>
+My research spans explainable and responsible AI, generative AI,
+behavioural and psychophysiological analytics, decision support,
+and data-driven systems. Selected publications are highlighted below,
+followed by the complete publication record grouped by output type.
+</p>
+
+{% if site.author.googlescholar %}
+<p>
+A complete citation record is also available on
+<a href="{{ site.author.googlescholar }}">Google Scholar</a>.
+</p>
 {% endif %}
 
+</div>
 
 
+{% assign pubs = site.publications | sort: "date" | reverse %}
+
+
+<!-- ============================================================
+     Publication type definitions
+
+     These use exact titles because the migrated category field
+     historically used only "manuscripts" and "conferences".
+     ============================================================ -->
+
+
+{% assign journal_string = "Adaptive Input-image Normalization for Solving Mode Collapse Problem in GAN-based X-ray Images||Towards Dataset Agnostic ECG Signal Quality Assessments for Psychophysiological Analysis||VolumeScaler: A Kubernetes Controller for Automated PVC Scaling||Multi-scale graph theoretical analysis of resting-state fMRI for classification of Alzheimer’s disease, mild cognitive impairment, and healthy controls||Investigating the Relationships Between Basic Emotions and the Big Five Personality Traits and Their Sub-Traits||Optimal Neighborhood Contexts in Explainable AI: An Explanandum-Based Evaluation||A survey on training challenges in generative adversarial networks for biomedical image analysis" %}
+{% assign journal_titles = journal_string | split: "||" %}
+
+
+{% assign chapter_string = "Classification of Stress via Ambulatory ECG and GSR Data||Evaluating the Quality and Diversity of DCGAN-based Generatively Synthesized Diabetic Retinopathy Imagery" %}
+{% assign chapter_titles = chapter_string | split: "||" %}
+
+
+{% assign preprint_string = "Evaluating the Validity of Automated Emotion Detection from Spontaneous Expressions across Modalities: Insights from the PEM Dataset||Variance in Classifying Affective State via Electrocardiogram and Photoplethysmography." %}
+{% assign preprint_titles = preprint_string | split: "||" %}
+
+
+{% assign thesis_string = "A Distributed Architecture for the Monitoring and Analysis of Time Series Data" %}
+{% assign thesis_titles = thesis_string | split: "||" %}
+
+
+<!-- These are conference papers whose old metadata says manuscripts. -->
+
+{% assign extra_conference_string = "Early Stopping Criteria for Training Generative Adversarial Networks in Biomedical Imaging||A Self-attention Guided Multi-scale Gradient GAN for Diversified X-ray Image Synthesis||Assessing Intra-class Diversity and Quality of Synthetically Generated Images in a Biomedical and Non-biomedical Setting||Classification of Sleep Apnea via SpO2 in a Simulated Smartwatch Environment||Linguistic and gender variation in speech emotion recognition using spectral features" %}
+{% assign extra_conference_titles = extra_conference_string | split: "||" %}
+
+
+<!-- ============================================================
+     Selected publications
+     ============================================================ -->
+
+<h2>Selected Publications</h2>
+
+<div class="selected-publications">
+
+{% assign selected_string = "Adaptive Input-image Normalization for Solving Mode Collapse Problem in GAN-based X-ray Images||Towards Dataset Agnostic ECG Signal Quality Assessments for Psychophysiological Analysis||Investigating the Relationships Between Basic Emotions and the Big Five Personality Traits and Their Sub-Traits||A survey on training challenges in generative adversarial networks for biomedical image analysis||Optimal Neighborhood Contexts in Explainable AI: An Explanandum-Based Evaluation||On the Impact of Neighbourhood Sampling to Satisfy Sufficiency and Necessity Criteria in Explainable AI||FAIR-MED: Bias Detection and Fairness Evaluation in Healthcare Focused XAI" %}
+{% assign selected_titles = selected_string | split: "||" %}
+
+{% for pub in pubs %}
+
+  {% if selected_titles contains pub.title %}
+
+    {% assign authors = pub.citation | split: "(" | first %}
+
+    <div class="selected-entry">
+
+      <div class="pub-title">
+        <a href="{{ base_path }}{{ pub.url }}">{{ pub.title }}</a>
+      </div>
+
+      <div class="pub-authors">
+        {{ authors }}
+      </div>
+
+      <div class="pub-venue">
+        {% if pub.venue and pub.venue != "" %}
+          <em>{{ pub.venue }}</em>,
+        {% endif %}
+        {{ pub.date | date: "%Y" }}
+      </div>
+
+      <div class="pub-links">
+        {% if pub.paperurl %}
+          <a href="{{ pub.paperurl }}">Paper</a>
+        {% endif %}
+        <a href="{{ base_path }}{{ pub.url }}">Details</a>
+      </div>
+
+    </div>
+
+  {% endif %}
+
+{% endfor %}
+
+</div>
+
+
+<!-- ============================================================
+     Navigation
+     ============================================================ -->
+
+<div class="pub-nav">
+
+  <strong>Full publication record:</strong>
+
+  <a href="#journals">Journal Articles</a>
+  <a href="#conferences">Conference Proceedings</a>
+  <a href="#chapters">Book Chapters</a>
+  <a href="#preprints">Preprints</a>
+  <a href="#thesis">Thesis</a>
+
+</div>
+
+
+
+<!-- ============================================================
+     JOURNAL ARTICLES
+     ============================================================ -->
+
+<div class="pub-section" id="journals">
+
+<h2>
+Journal Articles
+<span class="pub-count">(7)</span>
+</h2>
+
+{% for pub in pubs %}
+
+  {% if journal_titles contains pub.title %}
+
+    {% assign authors = pub.citation | split: "(" | first %}
+
+    <div class="pub-entry">
+
+      <div class="pub-title">
+        <a href="{{ base_path }}{{ pub.url }}">{{ pub.title }}</a>
+      </div>
+
+      <div class="pub-authors">
+        {{ authors }}
+      </div>
+
+      <div class="pub-venue">
+        <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}
+      </div>
+
+      <div class="pub-links">
+
+        {% if pub.paperurl %}
+          <a href="{{ pub.paperurl }}">Paper</a>
+        {% endif %}
+
+        <a href="{{ base_path }}{{ pub.url }}">Publication page</a>
+
+        {% if pub.bibtex contains "http" %}
+          <a href="{{ pub.bibtex }}">BibTeX</a>
+        {% endif %}
+
+      </div>
+
+      <details class="pub-details">
+
+        <summary>Abstract &amp; citation</summary>
+
+        <div class="pub-details-content">
+
+          {{ pub.content | markdownify }}
+
+          {% if pub.bibtex contains "@" %}
+            <p><strong>BibTeX</strong></p>
+            <pre class="pub-bibtex">{{ pub.bibtex | escape }}</pre>
+          {% endif %}
+
+        </div>
+
+      </details>
+
+    </div>
+
+  {% endif %}
+
+{% endfor %}
+
+</div>
+
+
+
+<!-- ============================================================
+     CONFERENCE PROCEEDINGS
+     ============================================================ -->
+
+<div class="pub-section" id="conferences">
+
+<h2>
+Conference Proceedings
+<span class="pub-count">(37)</span>
+</h2>
+
+{% for pub in pubs %}
+
+  {% if pub.category == "conferences" or extra_conference_titles contains pub.title %}
+
+    <div class="pub-entry">
+
+      {% assign authors = pub.citation | split: "(" | first %}
+
+      <div class="pub-title">
+        <a href="{{ base_path }}{{ pub.url }}">{{ pub.title }}</a>
+      </div>
+
+      <div class="pub-authors">
+        {{ authors }}
+      </div>
+
+      <div class="pub-venue">
+        {% if pub.venue and pub.venue != "" %}
+          <em>{{ pub.venue }}</em>,
+        {% endif %}
+        {{ pub.date | date: "%Y" }}
+      </div>
+
+      <div class="pub-links">
+
+        {% if pub.paperurl %}
+          <a href="{{ pub.paperurl }}">Paper</a>
+        {% endif %}
+
+        <a href="{{ base_path }}{{ pub.url }}">Publication page</a>
+
+        {% if pub.bibtex contains "http" %}
+          <a href="{{ pub.bibtex }}">BibTeX</a>
+        {% endif %}
+
+      </div>
+
+      <details class="pub-details">
+
+        <summary>Abstract &amp; citation</summary>
+
+        <div class="pub-details-content">
+
+          {{ pub.content | markdownify }}
+
+          {% if pub.bibtex contains "@" %}
+            <p><strong>BibTeX</strong></p>
+            <pre class="pub-bibtex">{{ pub.bibtex | escape }}</pre>
+          {% endif %}
+
+        </div>
+
+      </details>
+
+    </div>
+
+  {% endif %}
+
+{% endfor %}
+
+</div>
+
+
+
+<!-- ============================================================
+     BOOK CHAPTERS
+     ============================================================ -->
+
+<div class="pub-section" id="chapters">
+
+<h2>
+Book Chapters
+<span class="pub-count">(2)</span>
+</h2>
+
+{% for pub in pubs %}
+
+  {% if chapter_titles contains pub.title %}
+
+    {% assign authors = pub.citation | split: "(" | first %}
+
+    <div class="pub-entry">
+
+      <div class="pub-title">
+        <a href="{{ base_path }}{{ pub.url }}">{{ pub.title }}</a>
+      </div>
+
+      <div class="pub-authors">
+        {{ authors }}
+      </div>
+
+      <div class="pub-venue">
+        <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}
+      </div>
+
+      <div class="pub-links">
+
+        {% if pub.paperurl %}
+          <a href="{{ pub.paperurl }}">Paper</a>
+        {% endif %}
+
+        <a href="{{ base_path }}{{ pub.url }}">Publication page</a>
+
+      </div>
+
+      <details class="pub-details">
+
+        <summary>Abstract &amp; citation</summary>
+
+        <div class="pub-details-content">
+
+          {{ pub.content | markdownify }}
+
+          {% if pub.bibtex contains "@" %}
+            <p><strong>BibTeX</strong></p>
+            <pre class="pub-bibtex">{{ pub.bibtex | escape }}</pre>
+          {% endif %}
+
+        </div>
+
+      </details>
+
+    </div>
+
+  {% endif %}
+
+{% endfor %}
+
+</div>
+
+
+
+<!-- ============================================================
+     PREPRINTS
+     ============================================================ -->
+
+<div class="pub-section" id="preprints">
+
+<h2>
+Preprints &amp; Working Papers
+<span class="pub-count">(2)</span>
+</h2>
+
+{% for pub in pubs %}
+
+  {% if preprint_titles contains pub.title %}
+
+    {% assign authors = pub.citation | split: "(" | first %}
+
+    <div class="pub-entry">
+
+      <div class="pub-title">
+        <a href="{{ base_path }}{{ pub.url }}">{{ pub.title }}</a>
+      </div>
+
+      <div class="pub-authors">
+        {{ authors }}
+      </div>
+
+      <div class="pub-venue">
+        {% if pub.venue and pub.venue != "" %}
+          <em>{{ pub.venue }}</em>,
+        {% endif %}
+        {{ pub.date | date: "%Y" }}
+      </div>
+
+      <div class="pub-links">
+
+        {% if pub.paperurl %}
+          <a href="{{ pub.paperurl }}">Paper</a>
+        {% endif %}
+
+        <a href="{{ base_path }}{{ pub.url }}">Publication page</a>
+
+      </div>
+
+      <details class="pub-details">
+
+        <summary>Abstract &amp; citation</summary>
+
+        <div class="pub-details-content">
+
+          {{ pub.content | markdownify }}
+
+          {% if pub.bibtex contains "@" %}
+            <p><strong>BibTeX</strong></p>
+            <pre class="pub-bibtex">{{ pub.bibtex | escape }}</pre>
+          {% endif %}
+
+        </div>
+
+      </details>
+
+    </div>
+
+  {% endif %}
+
+{% endfor %}
+
+</div>
+
+
+
+<!-- ============================================================
+     DOCTORAL THESIS
+     ============================================================ -->
+
+<div class="pub-section" id="thesis">
+
+<h2>
+Doctoral Thesis
+<span class="pub-count">(1)</span>
+</h2>
+
+{% for pub in pubs %}
+
+  {% if thesis_titles contains pub.title %}
+
+    {% assign authors = pub.citation | split: "(" | first %}
+
+    <div class="pub-entry">
+
+      <div class="pub-title">
+        <a href="{{ base_path }}{{ pub.url }}">{{ pub.title }}</a>
+      </div>
+
+      <div class="pub-authors">
+        {{ authors }}
+      </div>
+
+      <div class="pub-venue">
+        <em>{{ pub.venue }}</em>, {{ pub.date | date: "%Y" }}
+      </div>
+
+      <div class="pub-links">
+
+        {% if pub.paperurl %}
+          <a href="{{ pub.paperurl }}">Thesis</a>
+        {% endif %}
+
+        <a href="{{ base_path }}{{ pub.url }}">Publication page</a>
+
+      </div>
+
+      <details class="pub-details">
+
+        <summary>Abstract &amp; citation</summary>
+
+        <div class="pub-details-content">
+
+          {{ pub.content | markdownify }}
+
+          {% if pub.bibtex contains "@" %}
+            <p><strong>BibTeX</strong></p>
+            <pre class="pub-bibtex">{{ pub.bibtex | escape }}</pre>
+          {% endif %}
+
+        </div>
+
+      </details>
+
+    </div>
+
+  {% endif %}
+
+{% endfor %}
+
+</div>
