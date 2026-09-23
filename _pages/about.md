@@ -7,25 +7,30 @@ redirect_from:
   - /about.html
 ---
 
-I am a Lecturer in Computer Science at **Munster Technological University (MTU), Cork**. My research focuses on **Explainable Artificial Intelligence (XAI)**, **generative AI and model evaluation**, **biomedical and clinical AI**, **fairness and robustness in healthcare AI**, and **data-driven decision support**.
+I am a Lecturer in Computer Science at **Munster Technological University (MTU), Cork**, specialising in **explainable and responsible AI, generative AI evaluation, data-driven decision support, and organisational and behavioural analytics**. My work bridges artificial intelligence with Information Systems research on decision-making, digital transformation, socio-technical governance, and human–AI collaboration.
 
-I received my B.Sc. (Hons) in Computer Science from University College Cork in 2008 and my Ph.D. in Computer Science from UCC in 2015. My doctoral research developed a distributed architecture for monitoring and analysing time-series data.
+I received my B.Sc. (Hons) in Computer Science from University College Cork in 2008 and my Ph.D. in Computer Science from UCC in 2015. My doctoral research developed a distributed architecture for the monitoring and analysis of time-series data.
 
-My current work examines how AI systems can be made more interpretable, reliable and useful in real-world decision-making. A particular focus is the evaluation of explanations, generative models and machine-learning workflows in biomedical and clinical settings.
+My current research programme focuses on making AI systems more transparent, reliable and useful in expert decision environments. It spans **explainable AI (XAI), fairness and trustworthy AI, generative-model evaluation, workflow analytics, complex systems, information-theoretic modelling, psychophysiological analytics, and biomedical and clinical AI**.
 
-I am a Senior Member of the IEEE and contribute to research communities spanning artificial intelligence, explainable AI, image analysis, signal processing and healthcare AI.
+I am Programme Coordinator for the **M.Sc. in Software Architecture & Design** at MTU, a **Senior Member of the IEEE**, and a member of research communities including **Lero**, **ADAPT**, and the **Riomh** research group.
 
 ## Current research themes
 
-- Explainable AI and explanation evaluation
-- Generative AI and synthetic-data evaluation
-- Biomedical and clinical machine learning
-- Fairness, bias and robustness in healthcare AI
-- Data-driven decision support and organisational analytics
-- Human-centred evaluation of AI systems
+- Explainable, trustworthy and fair AI for expert decision support
+- Generative AI evaluation and synthetic-data quality
+- AI-driven workflow analytics and organisational decision-making
+- Complex systems and information-theoretic modelling
+- Human-centred AI, trust and human–AI collaboration
+- Biomedical, clinical and psychophysiological analytics
+- Distributed and reproducible AI/ML workflows
 
-## Teaching and supervision
+## Research, teaching and supervision
 
-I teach across undergraduate and postgraduate Computer Science programmes at MTU, including modules in Knowledge Representation, Interactive Data Visualisation, Data Management Systems, Analytic & Scientific Programming, Server-side Web Frameworks, Advanced Web Publishing, Server-side Web Development and Object-Oriented Programming.
+My research has contributed to more than **€1.75m in funded projects**, with **€297,300 in funding under my supervision**. I have supervised completed PhD and M.Sc. research across XAI, generative AI, biomedical imaging, affective computing and software architecture, together with more than 35 undergraduate final-year projects.
 
-I also supervise research students and taught postgraduate dissertations across AI, software architecture, biomedical image analysis, explainable AI and data analytics.
+I teach across undergraduate and postgraduate Computer Science programmes. My teaching centres on **Knowledge Representation & Reasoning, AI, analytics, programming, data management, software systems and reproducible computational practice**, with a strong emphasis on research-led and applied learning.
+
+## Recent activity
+
+Recent outputs include work on **dataset-agnostic ECG signal-quality assessment**, **automated Kubernetes persistent-volume scaling**, **GAN mode-collapse mitigation in biomedical imaging**, **FAIR-MED for intersectional fairness evaluation**, and **explanandum-based evaluation of XAI neighbourhoods**. In 2026 I served as **Special Sessions Chair for the World Conference on Explainable Artificial Intelligence (xAI 2026)** and delivered the Pint of Science talk **“Agentic AI: Smart Help or Digital Chaos?”**.

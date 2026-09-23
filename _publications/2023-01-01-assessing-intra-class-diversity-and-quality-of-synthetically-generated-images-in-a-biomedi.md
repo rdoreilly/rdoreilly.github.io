@@ -4,10 +4,10 @@ collection: publications
 category: manuscripts
 permalink: "/publication/2023-assessing-intra-class-diversity-and-quality-of-synthetically-generated-images-in-a-biomedi"
 date: 2023-01-01
-venue: "TBD"
+venue: "25th Irish Machine Vision and Image Processing Conference (IMVIP 2023)"
 paperurl: "https://arxiv.org/pdf/2308.02505"
 bibtex: "@article{saad2023assessing, title={Assessing Intra-class Diversity and Quality of Synthetically Generated Images in a Biomedical and Non-biomedical Setting}, author={Saad, Muhammad Muneeb and Rehmani, Mubashir Husain and O'Reilly, Ruairi}, journal={arXiv preprint arXiv:2308.02505}, year={2023} }"
-citation: "Saad, Muhammad Muneeb and Rehmani, Mubashir Husain and O'Reilly, Ruairi (2023). “Assessing Intra-class Diversity and Quality of Synthetically Generated Images in a Biomedical and Non-biomedical Setting.” TBD."
+citation: "Saad, Muhammad Muneeb; Rehmani, Mubashir Husain; O'Reilly, Ruairi (2023). “Assessing Intra-class Diversity and Quality of Synthetically Generated Images in a Biomedical and Non-biomedical Setting.” 25th Irish Machine Vision and Image Processing Conference (IMVIP 2023)."
 ---
 
 ## Abstract

@@ -2,11 +2,12 @@
 title: "Optimal Neighborhood Contexts in Explainable AI: An Explanandum-Based Evaluation"
 collection: publications
 category: manuscripts
-permalink: "/publication/1900-optimal-neighborhood-contexts-in-explainable-ai-an-explanandum-based-evaluation"
-date: 1900-01-01
-venue: ""
-bibtex: "@article{pawar2024optimal, title={Optimal Neighborhood Contexts in Explainable AI: An Explanandum-Based Evaluation}, author={Pawar, Urja and O'Shea, Donna and O'Reilly, Ruairi and Costello, Maebh and Beder, Christian}, journal={IEEE Open Journal of the Computer Society}, year={2024}, publisher={IEEE} }"
-citation: "Pawar, Urja and O'Shea, Donna and O'Reilly, Ruairi and Costello, Maebh and Beder, Christian (1900). “Optimal Neighborhood Contexts in Explainable AI: An Explanandum-Based Evaluation.” ."
+permalink: "/publication/2024-optimal-neighborhood-contexts-in-explainable-ai-an-explanandum-based-evaluation"
+date: 2024-01-01
+venue: "IEEE Open Journal of the Computer Society"
+paperurl: "https://doi.org/10.1109/OJCS.2024.3389781"
+bibtex: "@article{pawar2024optimal, title={Optimal Neighborhood Contexts in Explainable AI: An Explanandum-Based Evaluation}, author={Pawar, Urja and O'Shea, Donna and O'Reilly, Ruairi and Costello, Maebh and Beder, Christian}, journal={IEEE Open Journal of the Computer Society}, year={2024}, volume={5}, pages={181--194}, doi={10.1109/OJCS.2024.3389781}, publisher={IEEE} }"
+citation: "Pawar, Urja and O'Shea, Donna and O'Reilly, Ruairi and Costello, Maebh and Beder, Christian (2024). “Optimal Neighborhood Contexts in Explainable AI: An Explanandum-Based Evaluation.” IEEE Open Journal of the Computer Society, 5, 181–194. DOI: 10.1109/OJCS.2024.3389781."
 ---
 
 ## Abstract

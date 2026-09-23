@@ -4,71 +4,45 @@ permalink: /supervision/
 author_profile: true
 ---
 
-Selected research and dissertation supervision migrated from the previous site.
+I supervise research across explainable AI, generative AI, affective computing, biomedical analytics, complex systems and software architecture. My supervision record includes **3 completed PhDs, 1 current PhD, 26 completed M.Sc. dissertations, 4 current M.Sc. projects and 35+ undergraduate final-year projects**.
 
-## PhD research
+## PhD supervision
 
-- **Ryan Donovan** — Modelling the Relationship Between Personality Traits and Basic Emotions: A Multi-Modal and Affective Computing Approach _(PhD, 2025)_
-- **Urja Pawar** — Explainable AI in Medical Domain _(PhD, 2023)_
-- **Urja Pawar** — Evaluating Hierarchical Medical Workflows using Feature Importance _(PhD, 2021)_
-- **Muhammad Muneeb Saad** — A Survey on Training Challenges in Generative Adversarial Networks for Biomedical Image Analysis _(PhD, 2021)_
-- **Zachary Dair** — A Complex Adaptive System for the Analysis of Psychobiological data and Personalised Healthcare _(PhD, 2021)_
-- **Urja Pawar** — Incorporating Explainable Artificial Intelligence (XAI) to aid the Understanding of Machine Learning in the Healthcare Domain _(PhD, 2020)_
-- **Urja Pawar** — Explainable AI in Healthcare _(PhD, 2020)_
-- **Urja Pawar** — Enabling Proactive Smart Healthcare via Artificial Intelligence _(PhD, 2020)_
-- **Muhammad Muneeb Saad** — Advancing GAN architectures for the Augmentation of Biomedical Image Datasets _(PhD, 2020)_
-- **Urja Pawar** — A Framework for Model-Agnostic Explainable Artificial Intelligence _(PhD, 2019)_
-- **Ryan Donovan** — Differentiation in Personality-Emotion Mappings _(PhD)_
-- **Ryan Donovan** — Improving Academic Performance Amongst First Years Computer Science Students Through Goal-Setting _(PhD)_
-- **Ryan Donovan** — A Workflow for Modeling Personality And Emotions to Enable User Profiling and Personalisation _(PhD)_
-- **Ryan Donovan** — Introducing PEM - A Workflow for Mapping Personality Traits to The Basic Emotions _(PhD)_
-- **Ryan Donovan** — Quantifying the Links between Personality Sub-Traits and the Basic Emotions _(PhD)_
-- **Ryan Donovan** — A Quantitative Model Mapping Personality Traits to Basic Emotions _(PhD)_
-- **Ryan Donovan** — Linear and Nonlinear Modelling in Personality Emotion Mappings _(PhD)_
-- **Ryan Donovan** — An Empirical Study Quantifying the Links between the Basic Emotions and Personality Sub-Traits _(PhD)_
-- **Urja Pawar** —  _(PhD)_
+### Completed
 
-## M.Sc. dissertations
+- **Muhammad Muneeb Saad (2025)** — Generative AI training challenges, mode collapse and biomedical image augmentation. His research produced work in *Artificial Intelligence Review* and *Biomedical Signal Processing and Control* and was recognised through the Lero Director's Prizes.
+- **Urja Pawar (2024)** — Model-agnostic explainable AI, neighbourhood-based explanation evaluation and decision support. Outputs include work in *IEEE Open Journal of the Computer Society* and PMLR.
+- **Ryan Donovan (2023)** — Affective computing and multimodal modelling of relationships between personality traits and basic emotions. This work has contributed to publications including the *Journal of Personality*.
 
-- **Nathan Ben David Pattison** — Dynamic Video Targeted Temporal Inpainting via Gaussian Splatting _(AI, 2025)_
-- **Yash Sandeep Modi** — Co-evolutionary Level Generation and Agent Development: A Hybrid GAN-RL Architecture for Ensuring Playable Game Content _(AI, 2025)_
-- **Shane Ward** — SDCS-X: Enabling Open and Modular Software-Defined Control Systems in Discrete Manufacturing _(SAD, 2025)_
-- **Amal Zackaria** — Architectural Models for Master Data Management in Data Mesh _(SAD, 2025)_
-- **Ahmed Ghanem** — VolumeScaler Controller _(SAD, 2025)_
-- **Felipe Tuyama de Faria Barbosa** — Assessing Playability of Automated Piano Transcriptions with Heuristic Metrics Based on Music Theory _(SAD, 2025)_
-- **Marwen Battikh** — A Developer Friendly RBAC Enabled Micro Frontend Framework With Dynamic Discovery Support _(SAD, 2024)_
-- **Mickael Mania** — Addressing the Exploration-Exploitation Dilemma in Adaptive Software Systems _(SAD, 2024)_
-- **James Mahoney** — Enhancing Performance and Scalability in Containerised Environments through Thread Pool Starvation Detection _(SAD, 2024)_
-- **David Garcia Lopez** — Performance Analysis of Rust, C++, and C# in High-Load Transactional Systems _(SAD, 2024)_
-- **Madalina Dragan** — Evaluating Generatively Synthesized Diabetic Retinopathy Imagery - 22.12 _(AI, 2023)_
-- **Wenchao Zhao** —  _(AI, 2023)_
-- **Manfred Steyer** —  _(SAD, 2023)_
-- **William Stack** —  _(SAD, 2023)_
-- **Declan Williamson** — WebTransport: An initial assessment _(SAD, 2022)_
-- **Marcelo Flores** — Improving User Interface Test Automation Efficiency _(SAD, 2022)_
-- **Gyanendar Manohar** — InceptionCaps: A Performant Glaucoma Classification Model for Data-scarce Environment _(AI, 2022)_
-- **Cristian Feteseu** — Clustering and Interpreting Heart Murmur data via Medical XAI _(AI, 2022)_
-- **Shane Quinn** — Real-time facial emotion recognition at the edge with model compression _(AI, 2022)_
-- **Daniel Gallagher** — Transfer Learning in Skin Lesion Classification _(AI, 2022)_
-- **Brendan Lyden** — A Deep Learning Approach to Sleep Apnea Detection _(AI, 2021)_
-- **Madalina Dragan** — Diabetic Retinopathy classification using a CNN trained on synthetic retina fundus images _(AI, 2021)_
-- **Dave Walshe** — Melanoma Classification based on Transfer Learning Methods _(MSc SAD, 2021)_
+### Current
 
-## B.Sc. projects
+- **Zachary Dair** — Complex adaptive systems, psychophysiological data and personalised analytics, including dataset-agnostic ECG signal-quality assessment.
 
-- **Christopher O Grady** — An Exploration into Algorithmic Traders and Risk in the Stock Market _(Software Development, 2024)_
-- **WeiXuan Leong** — Towards Open-Source: Refactoring and Migrating Legacy Systems as OS Solutions _(Software Development, 2024)_
-- **Conor Pasley** — Improving the Communication of Large  Learning Models through Socio-Economic Personas _(Software Development, 2024)_
-- **Matthew Byrne** — Technology Enabled Care: Fall Prediction in Elder Care Facilities _(Software Development, 2023)_
-- **Jakub Kucharski** — Mental Health Well-being Companion APP _(Software Development, 2023)_
-- **Jonathon Mahony** — Tyre Mate - Tread depth estimation on a mobile device _(Software Development, 2023)_
-- **Roshan Sreekanth** — Comparing Machine Learning Algorithms used in Stock Market Forecasting _(Software Development, 2022)_
-- **Vytautas Vosylius** — Actionable insights from the visualisation and analysis of traffic data _(Software Development, 2022)_
-- **Aaron Kelleher** — Housing analysis _(Software Development, 2022)_
-- **Adam Baldwin** — Quantifying the Interaction between Mood, Academic Performance, and Goal-Setting _(Software Development, 2022)_
-- **Zachary Dair** — Classification of Emotive Expression Using Verbal and Non Verbal Components of Speech _(PhD, 2021)_
-- **Joshua Desmond** — Solving the university course timetabling problem using Constraint satisfaction methodology and Answer set programming _(Software Development, 2021)_
-- **Fiach O'Neill** — A Comparative Analysis of Probabilistic and Game Theoretic Methods in Imperfect Information Games _(Software Development, 2021)_
-- **Iulian Gherman** — Predicting the Price of Cars using Machine Learning Models _(Web Development, 2021)_
-- **James Harty** — Filtering user profiles on Stack Overflow, based on technical skill, to provide suitable candidates for recruiters _(Web Development, 2021)_
-- **Zachary Dair** — A bi-modal approach to emotion detection, using verbal and non-verbal components of speech _(Software Development, 2021)_
+## Selected M.Sc. supervision
+
+### 2025
+
+- **Nathan Ben David Pattison** — Dynamic Video Targeted Temporal Inpainting via Gaussian Splatting _(M.Sc. Artificial Intelligence)_
+- **Yash Sandeep Modi** — Co-evolutionary Level Generation and Agent Development: A Hybrid GAN-RL Architecture for Ensuring Playable Game Content _(M.Sc. Artificial Intelligence)_
+- **Shane Ward** — SDCS-X: Enabling Open and Modular Software-Defined Control Systems in Discrete Manufacturing _(M.Sc. Software Architecture & Design)_
+- **Amal Zackaria** — Architectural Models for Master Data Management in Data Mesh _(M.Sc. Software Architecture & Design)_
+- **Ahmed Ghanem** — VolumeScaler Controller _(M.Sc. Software Architecture & Design)_
+- **Felipe Tuyama de Faria Barbosa** — Assessing Playability of Automated Piano Transcriptions with Heuristic Metrics Based on Music Theory _(M.Sc. Software Architecture & Design)_
+
+### Earlier selected projects
+
+- **Marwen Battikh (2024)** — A Developer-Friendly RBAC-Enabled Micro Frontend Framework with Dynamic Discovery Support
+- **Mickael Mania (2024)** — Addressing the Exploration-Exploitation Dilemma in Adaptive Software Systems
+- **James Mahoney (2024)** — Thread Pool Starvation Detection in Containerised Environments
+- **David Garcia Lopez (2024)** — Performance Analysis of Rust, C++ and C# in High-Load Transactional Systems
+- **Declan Williamson (2022)** — WebTransport: An Initial Assessment
+- **Gyanendar Manohar (2022)** — InceptionCaps: A Performant Glaucoma Classification Model for Data-Scarce Environments
+
+## Selected undergraduate supervision
+
+- **Eleonora Blazhko (2026)** — *Image-based Survival Prediction of Lung Cancer*; Best Poster, AI in Health 2026, Imperial College London
+- **Christopher O'Grady (2024)** — An Exploration into Algorithmic Traders and Risk in the Stock Market
+- **WeiXuan Leong (2024)** — Towards Open Source: Refactoring and Migrating Legacy Systems as Open-Source Solutions
+- **Conor Pasley (2024)** — Improving the Communication of Large Language Models through Socio-Economic Personas
+- **Matthew Byrne (2023)** — Technology-Enabled Care: Fall Prediction in Elder Care Facilities
+- **Jonathon Mahony (2023)** — Tyre Mate: Tread-Depth Estimation on a Mobile Device

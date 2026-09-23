@@ -12,8 +12,8 @@ site_theme               : "default" # The available themes options are "default
 title : "Ruairí O'Reilly"
 title_separator          : "-"
 name : "Ruairí O'Reilly"
-description : "Academic profile of Ruairí O'Reilly — explainable and responsible AI, generative AI evaluation, workflow analytics and data-driven decision support."
-url : "https://www.rdor.eu"
+description : "Academic profile of Ruairí O'Reilly — Explainable AI, generative AI evaluation, biomedical AI and data-driven decision support."
+url: "https://www.rdor.eu"
 baseurl : ""
 repository : "rdoreilly/rdoreilly.github.io"
 
@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Ruairí O'Reilly"
   pronouns         : # example: "she/her"  
-  bio              : "Lecturer in Computer Science at Munster Technological University. Research in explainable and responsible AI, generative AI evaluation, workflow analytics and decision support."
+  bio              : "Lecturer in Computer Science at Munster Technological University. Research in Explainable AI, generative AI evaluation, biomedical AI, fairness and decision support."
   location         : "Cork, Ireland"
   employer         : "Munster Technological University"
   uri              : # URL
@@ -38,9 +38,9 @@ author:
   inspire-hep      : # URL
   impactstory      : # URL
   orcid            : "https://orcid.org/0000-0001-7990-3461"
-  semantic         : "https://www.semanticscholar.org/author/Ruairi-O'Reilly/115636795"
+  semantic         : # URL
   ssrn             : # URL
-  pubmed           : # URL
+  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   researchgate     : "https://www.researchgate.net/profile/Ruairi_Oreilly2"
   scopus           : # URL
   zotero           : # URL
@@ -56,7 +56,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : # Username # Replace this with you Bluesky username
+  bluesky          : "bsky.app" # Replace this with you Bluesky username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
