@@ -8,7 +8,7 @@ My research examines how artificial-intelligence systems can support complex dec
 
 ## Explainable, trustworthy and fair AI
 
-I work on methods for evaluating and improving explanations produced by machine-learning systems. This includes neighbourhood-based XAI, sufficiency and necessity, explanation utility, fairness evaluation, bias detection and the design of interpretable decision-support workflows. A central question is not simply whether an explanation can be generated, but whether it is useful for the specific decision or *explanandum* being addressed.
+I work on methods for evaluating and improving explanations produced by machine-learning systems. This includes neighbourhood-based XAI, sufficiency and necessity, explanation utility, fairness evaluation, bias detection and the design of interpretable decision-support workflows. A central question is not simply whether an explanation can be generated, but whether it is useful for the specific decision or *explanandum* being addressed. This work is currently being extended to breast-cancer and multi-omics AI through the XFAIR-MED project (see [Ongoing research projects](#ongoing-research-projects)).
 
 ## Generative AI and model evaluation
 
@@ -25,6 +25,20 @@ My work on complex adaptive systems uses multimodal and psychophysiological data
 ## Biomedical, clinical and psychophysiological AI
 
 Healthcare remains an important application domain. My work spans biomedical image analysis, physiological-signal analysis, ECG quality assessment, clinical decision support, affective computing, fairness and reproducible machine-learning pipelines. These applications provide demanding test cases for trustworthy AI because decisions must be traceable and data quality, bias and uncertainty have direct practical consequences.
+
+## Ongoing research projects
+
+### XFAIR-MED: Explainable Fairness Audit and Interoperability in Medical AI
+
+High overall accuracy does not mean a clinical AI model is reliable for every patient group. XFAIR-MED is developing an open-source, model-agnostic audit framework for breast-cancer AI. It checks whether a model's evidence holds up across demographic, clinical and molecular subgroups, including multi-omics strata such as receptor status and tumour mutations. The audit works at three levels: the data (are subgroups adequately represented and comparable?), the model (are performance and errors shared evenly?) and the explanation (do attributions stay consistent and stable across groups?). These are summarised in the Explainable Compound Fairness Score (XCFS), which is always reported alongside its components so that each warning can be traced to its source. A leakage-safe design keeps the markers that define a subgroup out of the model's predictors. Findings are treated as signals for expert investigation, not as automatic evidence of unfairness. The project extends our earlier FAIR-MED framework and is aligned with the transparency and human-oversight requirements of the EU AI Act.
+
+- **Fellow:** Dr Katsiaryna Bahamazava, ROSETTA Postdoctoral Fellow, University of Limerick
+- **Supervision:** Dr Katie Crowley (University of Limerick; Lero) and Dr Ruairí O'Reilly (MTU; Lero)
+- **Funding:** ROSETTA MSCA COFUND (Horizon Europe, grant agreement No. 101126578), coordinated by the University of Galway, with co-funding from Lero, the Research Ireland Centre for Software
+- **Duration:** 11 May 2026 – 10 May 2028
+- **Related publication:** Bahamazava, K. & O'Reilly, R. (2026). *FAIR-MED: Bias Detection and Fairness Evaluation in Healthcare Focused XAI.* xAI 2025, CCIS 2576, pp. 380–401. [https://doi.org/10.1007/978-3-032-08317-3_18](https://doi.org/10.1007/978-3-032-08317-3_18)
+
+*This project has received funding from the European Union's Horizon Europe research and innovation programme under the Marie Skłodowska-Curie grant agreement No. 101126578.*
 
 ## Research directions for collaboration
 
