@@ -29,11 +29,7 @@ My teaching is research-led and practical. Students work with Python, Jupyter, G
 
 ## Research supervision
 
-| | Completed | Current |
-|---|---|---|
-| **PhD** | 3 | 1 |
-| **M.Sc. dissertation** | 26 | 4 |
-| **B.Sc. final-year project** | 35+ | |
+I supervise research at PhD, M.Sc. and final-year undergraduate level, across explainable AI, generative AI, affective computing and software architecture. Much of this work has gone on to be published.
 
 ### PhD students
 
