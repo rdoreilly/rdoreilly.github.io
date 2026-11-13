@@ -2,6 +2,7 @@
 title: "A Comparative Analysis of a State-of-the-Art CNN versus a Bespoke Capsule Network for Cell Image Classification"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2020-a-comparative-analysis-of-a-state-of-the-art-cnn-versus-a-bespoke-capsule-network-for-cell"
 date: 2020-01-01
 venue: "Irish Machine Vision & Image Processing Conference"

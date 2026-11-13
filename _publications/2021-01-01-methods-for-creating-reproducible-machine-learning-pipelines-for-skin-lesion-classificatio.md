@@ -2,6 +2,7 @@
 title: "Methods for Creating Reproducible Machine Learning Pipelines for Skin Lesion Classification"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2021-methods-for-creating-reproducible-machine-learning-pipelines-for-skin-lesion-classificatio"
 date: 2021-01-01
 venue: "2021 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI)"

@@ -4,9 +4,7 @@ permalink: /cv/
 author_profile: true
 ---
 
-## Profile
-
-Lecturer in Computer Science specialising in **explainable AI, generative AI, data-driven decision support, and organisational and behavioural analytics**. My work bridges AI with Information Systems research on decision-making, digital transformation, socio-technical governance and human–AI collaboration.
+Lecturer in Computer Science at Munster Technological University and Programme Coordinator of the M.Sc. in Software Architecture & Design. Research on trustworthy AI-intensive software: explainable and fair AI, generative AI, and human factors and affective computing, mostly applied in healthcare. See [Research](/research/).
 
 ## Academic appointments
 
@@ -25,16 +23,6 @@ Lecturer in Computer Science specialising in **explainable AI, generative AI, da
 
 **M.A. in Teaching & Learning** — ongoing
 
-## Research interests
-
-- Explainable, trustworthy and fair AI
-- Generative AI evaluation and synthetic-data quality
-- AI-driven workflow analytics and organisational decision support
-- Complex systems and information-theoretic modelling
-- Human-centred AI and human–AI collaboration
-- Biomedical, clinical and psychophysiological analytics
-- Distributed learning and reproducible AI workflows
-
 ## Research funding
 
 **€297,300** in competitively awarded funding under my supervision and contributions to **€1,754,372** in funded research activity. Awards include SFI ADVANCE CRT PhD scholarships, the MTU Rísam Scholarship Programme, Open Data Engagement Fund awards, H2020 and Enterprise Ireland-funded research.
@@ -44,14 +32,14 @@ Lecturer in Computer Science specialising in **explainable AI, generative AI, da
 - Saad, M. M., Rehmani, M. H. & O'Reilly, R. (2026). **Adaptive input-image normalization for solving the mode collapse problem in GAN-based X-ray images.** *Biomedical Signal Processing and Control*, 111, 108333.
 - Dair, Z., Dockray, S. & O'Reilly, R. (2026). **Towards Dataset Agnostic ECG Signal Quality Assessments for Psychophysiological Analysis.** *Journal of Psychophysiology*, 40(1), 12–29.
 - Ghanem, A. & O'Reilly, R. (2026). **VolumeScaler: A Kubernetes Controller for Automated PVC Scaling.** *Journal of Open Source Software*, 11(119), 8846.
-- Bahamazava, K. & O'Reilly, R. (2026). **FAIR-MED: Bias Detection and Fairness Evaluation in Healthcare Focused XAI.** In *Explainable Artificial Intelligence: xAI 2025*, CCIS 2576, 380–401.
+- Bahamazava, K. & O'Reilly, R. (2025). **FAIR-MED: Bias Detection and Fairness Evaluation in Healthcare Focused XAI.** In *Explainable Artificial Intelligence: xAI 2025*, CCIS 2576, 380–401.
 - Donovan, R. et al. (2025). **Investigating the Relationships Between Basic Emotions and the Big Five Personality Traits and Their Sub-Traits.** *Journal of Personality*.
 - Khazaee, A., Mohammadi, A. & O'Reilly, R. (2025). **Multi-scale graph theoretical analysis of resting-state fMRI for classification of Alzheimer's disease, mild cognitive impairment, and healthy controls.** *Signal, Image and Video Processing*, 19.
 - Pawar, U. et al. (2024). **On the Impact of Neighbourhood Sampling in Explainable AI.** *Proceedings of the 3rd Conference on Causal Learning and Reasoning*, PMLR 236, 570–586.
 - Pawar, U. et al. (2024). **Optimal Neighborhood Contexts in Explainable AI: An Explanandum-Based Evaluation.** *IEEE Open Journal of the Computer Society*, 5, 181–194.
 - Saad, M. M., O'Reilly, R. & Rehmani, M. H. (2024). **A Survey on Training Challenges in Generative Adversarial Networks for Biomedical Image Analysis.** *Artificial Intelligence Review*, 57(2), 19.
 
-See the **Publications** page for the full publication collection.
+Full list: [Publications](/publications/).
 
 ## Teaching and programme leadership
 
@@ -67,7 +55,7 @@ See the **Publications** page for the full publication collection.
 - **M.Sc.:** 26 completed; 4 current
 - **B.Sc.:** 35+ final-year projects
 
-Recent supervision has produced research in XAI, generative AI, biomedical imaging, psychophysiological analytics, software architecture and open-source systems.
+Details: [Teaching & Supervision](/teaching/).
 
 ## Academic and professional service
 

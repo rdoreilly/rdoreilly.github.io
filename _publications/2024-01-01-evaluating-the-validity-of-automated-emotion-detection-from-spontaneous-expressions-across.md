@@ -2,6 +2,7 @@
 title: "Evaluating the Validity of Automated Emotion Detection from Spontaneous Expressions across Modalities: Insights from the PEM Dataset"
 collection: publications
 category: manuscripts
+pubtype: preprint
 permalink: "/publication/2024-evaluating-the-validity-of-automated-emotion-detection-from-spontaneous-expressions-across"
 date: 2024-01-01
 venue: "OSF"

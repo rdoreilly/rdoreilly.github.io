@@ -2,6 +2,7 @@
 title: "VolumeScaler: A Kubernetes Controller for Automated PVC Scaling"
 collection: publications
 category: manuscripts
+pubtype: journal
 permalink: "/publication/2026-volumescaler-a-kubernetes-controller-for-automated-pvc-scaling"
 date: 2026-03-31
 venue: "Journal of Open Source Software"

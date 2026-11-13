@@ -2,6 +2,8 @@
 title: "Towards Dataset Agnostic ECG Signal Quality Assessments for Psychophysiological Analysis"
 collection: publications
 category: manuscripts
+pubtype: journal
+selected: true
 permalink: "/publication/2026-towards-dataset-agnostic-ecg-signal-quality-assessments"
 date: 2026-01-01
 venue: "Journal of Psychophysiology"

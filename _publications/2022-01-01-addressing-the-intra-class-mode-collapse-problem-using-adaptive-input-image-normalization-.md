@@ -2,6 +2,7 @@
 title: "Addressing the intra-class mode collapse problem using adaptive input image normalization in GAN-based X-ray images"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2022-addressing-the-intra-class-mode-collapse-problem-using-adaptive-input-image-normalization-"
 date: 2022-01-01
 venue: "44th annual international conference of the IEEE Engineering in Medicine and Biology Society (EMBC)"

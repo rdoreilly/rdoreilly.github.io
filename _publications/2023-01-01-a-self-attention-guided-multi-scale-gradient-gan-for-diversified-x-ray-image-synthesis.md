@@ -2,6 +2,7 @@
 title: "A Self-attention Guided Multi-scale Gradient GAN for Diversified X-ray Image Synthesis"
 collection: publications
 category: manuscripts
+pubtype: conference
 permalink: "/publication/2023-a-self-attention-guided-multi-scale-gradient-gan-for-diversified-x-ray-image-synthesis"
 date: 2023-01-01
 venue: "30th Irish Conference on Artificial Intelligence and Cognitive Science"

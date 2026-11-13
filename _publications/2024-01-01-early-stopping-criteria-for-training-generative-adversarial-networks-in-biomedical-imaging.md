@@ -2,6 +2,7 @@
 title: "Early Stopping Criteria for Training Generative Adversarial Networks in Biomedical Imaging"
 collection: publications
 category: manuscripts
+pubtype: conference
 permalink: "/publication/2024-early-stopping-criteria-for-training-generative-adversarial-networks-in-biomedical-imaging"
 date: 2024-01-01
 venue: "2024 35th Irish Signals and Systems Conference (ISSC)"

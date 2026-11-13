@@ -2,6 +2,7 @@
 title: "InceptionCaps: A Performant Glaucoma Classification Model for Data-Scarce Environment"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2023-inceptioncaps-a-performant-glaucoma-classification-model-for-data-scarce-environment"
 date: 2023-01-01
 venue: "31st Irish Conference on Artificial Intelligence and Cognitive Science (AICS)"

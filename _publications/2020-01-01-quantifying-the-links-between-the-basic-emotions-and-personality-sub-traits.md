@@ -2,6 +2,7 @@
 title: "Quantifying the Links between the Basic Emotions and Personality Sub-Traits"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2020-quantifying-the-links-between-the-basic-emotions-and-personality-sub-traits"
 date: 2020-01-01
 venue: "Workshop on Affective Computing and Emotion Recognition"

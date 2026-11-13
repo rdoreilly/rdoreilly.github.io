@@ -2,6 +2,7 @@
 title: "Explainable AI in Smart Healthcare"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2020-explainable-ai-in-smart-healthcare"
 date: 2020-01-01
 venue: "Cyber Science 2020"

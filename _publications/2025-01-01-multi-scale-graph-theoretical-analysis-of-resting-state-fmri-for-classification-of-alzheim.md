@@ -2,6 +2,7 @@
 title: "Multi-scale graph theoretical analysis of resting-state fMRI for classification of Alzheimer’s disease, mild cognitive impairment, and healthy controls"
 collection: publications
 category: manuscripts
+pubtype: journal
 permalink: "/publication/2025-multi-scale-graph-theoretical-analysis-of-resting-state-fmri-for-classification-of-alzheim"
 date: 2025-01-01
 venue: "Signal, Image and Video Processing (Springer Nature)"

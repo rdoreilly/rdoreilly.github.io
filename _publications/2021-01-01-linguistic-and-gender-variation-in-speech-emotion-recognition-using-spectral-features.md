@@ -2,6 +2,7 @@
 title: "Linguistic and gender variation in speech emotion recognition using spectral features"
 collection: publications
 category: manuscripts
+pubtype: conference
 permalink: "/publication/2021-linguistic-and-gender-variation-in-speech-emotion-recognition-using-spectral-features"
 date: 2021-01-01
 venue: "Irish Conference on Artificial Intelligence and Cognitive Science (AICS)"

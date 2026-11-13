@@ -2,6 +2,7 @@
 title: "Web-based remote monitoring of live EEG"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2010-web-based-remote-monitoring-of-live-eeg"
 date: 2010-01-01
 venue: "The 12th International Conference on E-Health Networking, Applications and Services"

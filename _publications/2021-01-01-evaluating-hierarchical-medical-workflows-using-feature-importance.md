@@ -2,6 +2,7 @@
 title: "Evaluating Hierarchical Medical Workflows using Feature Importance"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2021-evaluating-hierarchical-medical-workflows-using-feature-importance"
 date: 2021-01-01
 venue: "IEEE 34th International Symposium on Computer-Based Medical Systems (CBMS)"

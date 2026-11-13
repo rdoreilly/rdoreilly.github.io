@@ -2,6 +2,7 @@
 title: "Assessing Intra-class Diversity and Quality of Synthetically Generated Images in a Biomedical and Non-biomedical Setting"
 collection: publications
 category: manuscripts
+pubtype: conference
 permalink: "/publication/2023-assessing-intra-class-diversity-and-quality-of-synthetically-generated-images-in-a-biomedi"
 date: 2023-01-01
 venue: "25th Irish Machine Vision and Image Processing Conference (IMVIP 2023)"

@@ -2,6 +2,7 @@
 title: "Classification of Emotive Expression Using Verbal and Non Verbal Components of Speech"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2021-classification-of-emotive-expression-using-verbal-and-non-verbal-components-of-speech"
 date: 2021-01-01
 venue: "32nd Irish Signals and Systems Conference (ISSC)"

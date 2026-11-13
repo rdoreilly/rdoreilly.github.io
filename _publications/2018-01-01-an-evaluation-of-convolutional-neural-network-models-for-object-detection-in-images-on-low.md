@@ -2,6 +2,7 @@
 title: "An Evaluation of Convolutional Neural Network Models for Object Detection in Images on Low-End Devices"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2018-an-evaluation-of-convolutional-neural-network-models-for-object-detection-in-images-on-low"
 date: 2018-01-01
 venue: "The 26th Irish Conference on Artificial Intelligence and Cognitive Science"

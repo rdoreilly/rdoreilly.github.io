@@ -2,6 +2,7 @@
 title: "The Dynamics of Explainability: Diverse Insights from SHAP Explanations using Neighbourhoods"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2024-the-dynamics-of-explainability-diverse-insights-from-shap-explanations-using-neighbourhood"
 date: 2024-01-01
 venue: "Late-breaking work, Demos and Doctoral Consortium, colocated with The 2nd World Conference on eXplainable Artificial Intelligence"

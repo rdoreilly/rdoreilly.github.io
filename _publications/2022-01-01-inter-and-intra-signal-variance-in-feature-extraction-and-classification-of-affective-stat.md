@@ -2,6 +2,7 @@
 title: "Inter and intra signal variance in feature extraction and classification of affective state"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2022-inter-and-intra-signal-variance-in-feature-extraction-and-classification-of-affective-stat"
 date: 2022-01-01
 venue: "30th Irish Conference on Artificial Intelligence and Cognitive Science"
