@@ -2,6 +2,7 @@
 title: "Interpretable Machine Learning Models for Assisting Clinicians in the Analysis of Physiological Data"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2019-interpretable-machine-learning-models-for-assisting-clinicians-in-the-analysis-of-physiolo"
 date: 2019-01-01
 venue: "The 27th Irish Conference on Artificial Intelligence and Cognitive Science"

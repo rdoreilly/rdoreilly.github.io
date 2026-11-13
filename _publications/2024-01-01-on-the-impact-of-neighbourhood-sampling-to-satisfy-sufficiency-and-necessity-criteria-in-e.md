@@ -2,6 +2,7 @@
 title: "On the Impact of Neighbourhood Sampling to Satisfy Sufficiency and Necessity Criteria in Explainable AI"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2024-on-the-impact-of-neighbourhood-sampling-to-satisfy-sufficiency-and-necessity-criteria-in-e"
 date: 2024-01-01
 venue: "3rd Conference on Causal Learning and Reasoning"

@@ -2,6 +2,7 @@
 title: "Sleep Apnea Classification in an Activity Tracker Environment"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2021-sleep-apnea-classification-in-an-activity-tracker-environment"
 date: 2021-01-01
 venue: "2021 IEEE EMBS International Conference on Biomedical and Health Informatics (BHI)"

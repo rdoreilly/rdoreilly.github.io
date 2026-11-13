@@ -2,6 +2,7 @@
 title: "A Comparative Analysis of Classification Techniques for Cervical Cancer Utilising At Risk Factors and Screening Test Results"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2019-a-comparative-analysis-of-classification-techniques-for-cervical-cancer-utilising-at-risk-"
 date: 2019-01-01
 venue: "The 27th Irish Conference on Artificial Intelligence and Cognitive Science"

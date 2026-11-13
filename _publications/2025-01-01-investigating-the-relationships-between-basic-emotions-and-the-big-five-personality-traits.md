@@ -2,6 +2,8 @@
 title: "Investigating the Relationships Between Basic Emotions and the Big Five Personality Traits and Their Sub-Traits"
 collection: publications
 category: manuscripts
+pubtype: journal
+selected: true
 permalink: "/publication/2025-investigating-the-relationships-between-basic-emotions-and-the-big-five-personality-traits"
 date: 2025-01-01
 venue: "Journal of Personality"

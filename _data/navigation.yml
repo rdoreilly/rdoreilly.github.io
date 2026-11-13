@@ -3,11 +3,9 @@ main:
     url: /research/
   - title: "Publications"
     url: /publications/
-  - title: "Supervision"
-    url: /supervision/
-  - title: "Teaching"
+  - title: "Teaching & Supervision"
     url: /teaching/
-  - title: "Talks"
-    url: /talks/
+  - title: "Prospective Students"
+    url: /students/
   - title: "CV"
     url: /cv/

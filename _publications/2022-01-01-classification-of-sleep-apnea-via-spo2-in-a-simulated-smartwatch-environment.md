@@ -2,6 +2,7 @@
 title: "Classification of Sleep Apnea via SpO2 in a Simulated Smartwatch Environment"
 collection: publications
 category: manuscripts
+pubtype: conference
 permalink: "/publication/2022-classification-of-sleep-apnea-via-spo2-in-a-simulated-smartwatch-environment"
 date: 2022-01-01
 venue: "IEEE-EMBS International Conference on Biomedical and Health Informatics (BHI)"

@@ -2,6 +2,7 @@
 title: "ScrutiniseIT: A Search-Based Approach to EEG Seizure Detection"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2013-scrutiniseit-a-search-based-approach-to-eeg-seizure-detection"
 date: 2013-01-01
 venue: "The Fifth International Conference on eHealth, Telemedicine, and Social Medicine"

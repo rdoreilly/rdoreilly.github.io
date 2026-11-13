@@ -2,6 +2,7 @@
 title: "FAIR Skin Lesion Classification Workflows using Transfer Learning"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2022-fair-skin-lesion-classification-workflows-using-transfer-learning"
 date: 2022-01-01
 venue: "33rd Irish Signals and Systems Conference (ISSC)"

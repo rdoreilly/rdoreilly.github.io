@@ -2,6 +2,7 @@
 title: "Enabling Multi-Party Consensual Data Exchange Through Blockchain"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2019-enabling-multi-party-consensual-data-exchange-through-blockchain"
 date: 2019-01-01
 venue: "The 27th Irish Conference on Artificial Intelligence and Cognitive Science"

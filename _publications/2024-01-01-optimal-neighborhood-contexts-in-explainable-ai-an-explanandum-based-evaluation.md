@@ -2,6 +2,8 @@
 title: "Optimal Neighborhood Contexts in Explainable AI: An Explanandum-Based Evaluation"
 collection: publications
 category: manuscripts
+pubtype: journal
+selected: true
 permalink: "/publication/2024-optimal-neighborhood-contexts-in-explainable-ai-an-explanandum-based-evaluation"
 date: 2024-01-01
 venue: "IEEE Open Journal of the Computer Society"

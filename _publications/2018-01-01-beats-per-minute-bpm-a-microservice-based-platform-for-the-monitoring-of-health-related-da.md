@@ -2,6 +2,7 @@
 title: "Beats-Per-Minute (BPM): A Microservice-based Platform for the Monitoring of Health-Related Data via Activity Trackers"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2018-beats-per-minute-bpm-a-microservice-based-platform-for-the-monitoring-of-health-related-da"
 date: 2018-01-01
 venue: "The 20th IEEE International Conference on E-health Networking, Application & Services"

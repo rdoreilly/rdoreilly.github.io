@@ -25,7 +25,7 @@ author:
   avatar           : "profile.png"
   name             : "Ruairí O'Reilly"
   pronouns         : # example: "she/her"  
-  bio              : "Lecturer in Computer Science at Munster Technological University. Research in explainable and responsible AI, generative AI evaluation, workflow analytics and decision support."
+  bio              : "Lecturer in Computer Science at Munster Technological University. Research on trustworthy AI: explainable and fair AI, generative AI, and human factors, applied in healthcare."
   location         : "Cork, Ireland"
   employer         : "Munster Technological University"
   uri              : # URL
@@ -94,7 +94,7 @@ publication_category:
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
-future                   : true
+future                   : false
 read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
 talkmap_link             : false      #change to true to add link to talkmap on talks page
 comments:

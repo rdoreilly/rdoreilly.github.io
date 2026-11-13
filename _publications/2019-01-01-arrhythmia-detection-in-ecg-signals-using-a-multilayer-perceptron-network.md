@@ -2,6 +2,7 @@
 title: "Arrhythmia Detection in ECG Signals Using a Multilayer Perceptron Network"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2019-arrhythmia-detection-in-ecg-signals-using-a-multilayer-perceptron-network"
 date: 2019-01-01
 venue: "The 27th Irish Conference on Artificial Intelligence and Cognitive Science"

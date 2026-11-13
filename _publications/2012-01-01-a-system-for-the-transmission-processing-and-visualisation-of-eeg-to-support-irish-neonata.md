@@ -2,6 +2,7 @@
 title: "A System for the Transmission, Processing and Visualisation of EEG to Support Irish Neonatal Intensive Care Units"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2012-a-system-for-the-transmission-processing-and-visualisation-of-eeg-to-support-irish-neonata"
 date: 2012-01-01
 venue: "The 25th Canadian Conference on Electrical and Computer Engineering"

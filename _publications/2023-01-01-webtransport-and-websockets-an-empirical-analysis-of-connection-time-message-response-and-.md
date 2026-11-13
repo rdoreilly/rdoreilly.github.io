@@ -2,6 +2,7 @@
 title: "WebTransport and WebSockets: An Empirical Analysis of Connection Time, Message Response, and Payload Efficiency"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2023-webtransport-and-websockets-an-empirical-analysis-of-connection-time-message-response-and-"
 date: 2023-01-01
 venue: "34th Irish Signals and Systems Conference (ISSC)"

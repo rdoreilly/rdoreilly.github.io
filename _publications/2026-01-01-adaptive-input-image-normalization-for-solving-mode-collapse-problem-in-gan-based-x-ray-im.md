@@ -2,6 +2,8 @@
 title: "Adaptive Input-image Normalization for Solving Mode Collapse Problem in GAN-based X-ray Images"
 collection: publications
 category: manuscripts
+pubtype: journal
+selected: true
 permalink: "/publication/2026-adaptive-input-image-normalization-for-solving-mode-collapse-problem-in-gan-based-x-ray-im"
 date: 2026-01-01
 venue: "Biomedical Signal Processing and Control"

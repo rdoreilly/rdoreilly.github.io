@@ -2,6 +2,7 @@
 title: "Differentiation in Personality Emotion Mappings From Self Reported Emotion and Automatically Classified Emotion"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2020-differentiation-in-personality-emotion-mappings-from-self-reported-emotion-and-automatical"
 date: 2020-01-01
 venue: "The 28th Irish Conference on Artificial Intelligence and Cognitive Science (AICS2020)"

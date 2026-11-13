@@ -2,6 +2,7 @@
 title: "An Ensemble-based Approach to the Detection of COVID-19 Induced Pneumonia using X-Ray Imagery"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2020-an-ensemble-based-approach-to-the-detection-of-covid-19-induced-pneumonia-using-x-ray-imag"
 date: 2020-01-01
 venue: "Irish Machine Vision & Image Processing Conference"

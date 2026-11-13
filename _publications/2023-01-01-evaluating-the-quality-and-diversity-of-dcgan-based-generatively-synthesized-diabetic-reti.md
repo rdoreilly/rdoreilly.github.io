@@ -2,6 +2,7 @@
 title: "Evaluating the Quality and Diversity of DCGAN-based Generatively Synthesized Diabetic Retinopathy Imagery"
 collection: publications
 category: manuscripts
+pubtype: chapter
 permalink: "/publication/2023-evaluating-the-quality-and-diversity-of-dcgan-based-generatively-synthesized-diabetic-reti"
 date: 2023-01-01
 venue: "Advances in Deep Generative Models for Medical Artificial Intelligence"

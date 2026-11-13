@@ -2,6 +2,7 @@
 title: "Variance in Classifying Affective State via Electrocardiogram and Photoplethysmography."
 collection: publications
 category: manuscripts
+pubtype: preprint
 permalink: "/publication/2022-variance-in-classifying-affective-state-via-electrocardiogram-and-photoplethysmography"
 date: 2022-01-01
 venue: ""

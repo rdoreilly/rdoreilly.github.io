@@ -2,6 +2,8 @@
 title: "A survey on training challenges in generative adversarial networks for biomedical image analysis"
 collection: publications
 category: manuscripts
+pubtype: journal
+selected: true
 permalink: "/publication/2024-a-survey-on-training-challenges-in-generative-adversarial-networks-for-biomedical-image-an"
 date: 2024-01-01
 venue: "Artificial Intelligence Review"

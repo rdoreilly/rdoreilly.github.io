@@ -2,6 +2,7 @@
 title: "Classification of Stress via Ambulatory ECG and GSR Data"
 collection: publications
 category: manuscripts
+pubtype: chapter
 permalink: "/publication/2024-classification-of-stress-via-ambulatory-ecg-and-gsr-data"
 date: 2024-01-01
 venue: "Human Activity and Behavior Analysis"

@@ -2,6 +2,7 @@
 title: "Interactive Annotations to Support Collaborative Analysis of Streaming Physiological Data"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2011-interactive-annotations-to-support-collaborative-analysis-of-streaming-physiological-data"
 date: 2011-01-01
 venue: "The 24th International Symposium on Computer-Based Medical Systems"

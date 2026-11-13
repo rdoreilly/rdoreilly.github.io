@@ -2,6 +2,7 @@
 title: "A Distributed Architecture for the Monitoring and Analysis of Time Series Data"
 collection: publications
 category: manuscripts
+pubtype: thesis
 permalink: "/publication/2015-a-distributed-architecture-for-the-monitoring-and-analysis-of-time-series-data"
 date: 2015-01-01
 venue: "University College Cork"

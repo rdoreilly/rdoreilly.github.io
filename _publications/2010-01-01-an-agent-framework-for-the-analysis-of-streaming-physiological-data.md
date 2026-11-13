@@ -2,6 +2,7 @@
 title: "An Agent Framework for the Analysis of Streaming Physiological Data"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2010-an-agent-framework-for-the-analysis-of-streaming-physiological-data"
 date: 2010-01-01
 venue: "The 3rd International ICST Conference on Electronic Healthcare"

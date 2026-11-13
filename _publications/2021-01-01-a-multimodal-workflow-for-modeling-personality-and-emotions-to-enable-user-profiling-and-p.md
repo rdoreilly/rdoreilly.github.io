@@ -2,6 +2,7 @@
 title: "A Multimodal Workflow for Modeling Personality and Emotions to Enable User Profiling and Personalisation"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2021-a-multimodal-workflow-for-modeling-personality-and-emotions-to-enable-user-profiling-and-p"
 date: 2021-01-01
 venue: "5th International Conference on Human Computer Interaction Theory and Applications (HUCAPP 2021)"

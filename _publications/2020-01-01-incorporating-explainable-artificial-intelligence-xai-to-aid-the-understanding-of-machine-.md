@@ -2,6 +2,7 @@
 title: "Incorporating Explainable Artificial Intelligence (XAI) to aid the Understanding of Machine Learning in the Healthcare Domain"
 collection: publications
 category: conferences
+pubtype: conference
 permalink: "/publication/2020-incorporating-explainable-artificial-intelligence-xai-to-aid-the-understanding-of-machine-"
 date: 2020-01-01
 venue: "The 28th Irish Conference on Artificial Intelligence and Cognitive Science"
